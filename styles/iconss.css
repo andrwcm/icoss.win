@@ -527,3 +527,30 @@
 	top:-10px;
 	position: relative;
 }
+
+
+/* --- Mail --- */
+
+.icoMail{
+	height: 21px;
+	width: 35px;
+	border: solid 1px;
+	border-color: var(--Color1);
+}
+
+.icoMail::before{
+	content: "";
+	display: block;
+	border-bottom: 1px solid;
+	border-top: none;
+	border-right: solid 1px;
+	border-left: none;
+	border-color: var(--Color);
+	height: 24px;
+	width:24px;
+	-webkit-transform: rotate(45deg);
+	float: right;
+	position: relative;
+	right: 4px;
+	top: -13px;
+}
