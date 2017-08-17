@@ -1,0 +1,471 @@
+@import url(../styles/colors.css);
+
+
+/* --- Icon base --- */
+
+.ico{
+	box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+	display: inline-block;
+	position: relative;
+	margin: 8px;
+}
+
+.smallIco{
+	transform: scale(.6);
+}
+
+.tinyIco{
+	transform: scale(.4);
+}
+
+
+/* --- Phone --- */
+
+.icoPhone{
+	border: 1px solid;
+	border-color: var(--Color1);
+	width: 20px;
+	height: 35px;
+}
+
+.icoPhone::after, .icoPhone::before{
+	box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    content: "";
+	display: block;
+}
+
+.icoPhone::before{
+	border: solid 1px;
+	border-color: var(--Color1);
+	height: 25px;
+	margin: 2px auto;
+	width: 16px;
+}
+
+.icoPhone::after{
+	background: var(--Color1);
+	border-radius: 50%;
+	height: 2px;
+	margin:1px auto;
+	width: 2px;
+}
+
+
+/* --- Profile --- */
+
+.icoProfile{
+	box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border: solid 1px;
+    border-color: var(--Color1);
+    border-radius: 50%;
+	height: 35px;
+	width: 35px;
+	overflow: hidden;
+}
+
+.icoProfile::before, .icoProfile::after{
+	box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    content: "";
+	display: block;
+}
+
+.icoProfile::before{
+	height: 9px;
+	border-radius: 50%;
+	border: solid 1px;
+	border-color: var(--Color1);
+	margin:auto;
+	position: relative;
+	top: 13px;
+	width: 9px;
+}
+
+.icoProfile::after{
+	border: solid 1px;
+	border-color: var(--Color1);
+	border-radius: 5px;
+	height: 11px;
+	margin: auto;
+	position: relative;
+	top:15px;
+	width: 13px;
+}
+
+
+/* --- Calendar --- */
+
+.icoCalendar{
+	box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border:solid 1px;
+    border-color: var(--Color1);
+	height: 35px;
+	margin: 3px auto;
+	width: 35px;
+
+}
+
+
+.icoCalendar::before{
+	content: "· · · · · · · · "; 
+	line-height: 7px;
+	color: var(--Color1);
+	font-size: 11px;
+	font-weight: bold;
+	font-family: arial;
+	float: left;
+	position: relative;
+	left: 4px;
+	margin:15px auto;
+	width: 24px;
+}
+
+.icoCalendar::after{
+	display: block;
+	content: "";
+	width:33px;
+	position: relative;
+	left: -1px;
+	top: -1px;
+	height: 10px;
+	border:solid 1px;
+    border-color: var(--Color1);
+}
+
+
+/* --- Link --- */
+
+.icoLink{
+	width: 1px;
+	height: 19px;
+	border-radius:2px;
+	background: var(--Color1);
+	position: relative;
+	margin: auto 30px ;
+	transform: rotate(45deg);
+}
+
+.icoLink::before, .icoLink::after{
+	box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    content: "";
+	display: block;
+}
+
+.icoLink::before{
+	width: 14px;
+	height: 17px;
+	border: solid 1px;
+	border-color: var(--Color1);
+	position: relative;
+	left: -6px;
+	top:-11px;
+}
+
+.icoLink::after{
+	width: 14px;
+	height: 17px;
+	border: solid 1px;
+	border-color: var(--Color1);
+	position: relative;
+	left: -6px;
+	top:-6px;
+}
+
+
+/* --- Lock --- */
+
+.icoLock{
+	width: 35px;
+	height: 20px;
+	border:solid 1px;
+	border-color: var(--Color1);
+	position: relative;
+	top: 8px;
+}
+
+.icoLock::after{
+	display: block;
+	content: "";
+	width: 15px;
+	height: 16px;
+	border-radius: 7px 7px 0px 0px;
+	border: solid 1px;
+	border-color: var(--Color1);
+	margin:auto;
+	position: relative;
+	top: -35px;
+}
+
+.icoLock::before{
+	display: block;
+	width: 11px;
+	height: 11px;
+	border-radius: 50px;
+	border: solid 1px;
+	border-color: var(--Color1);
+	content: "";
+	margin: 2px auto;
+}
+
+
+/* --- Search--- */
+
+.icoSearch{
+	width: 28px;
+	height: 28px;
+	border:solid 1px;
+	margin: -2px 0px 0px 9px;
+	border-color: var(--Color1);
+	border-radius: 50%;
+}
+
+.icoSearch::before{
+	content: "";
+	display: block;width: 2px;
+	height: 14px;
+	background: var(--Color1);
+	transform: rotate(45deg);
+	position: relative;
+	top: 21px;
+	left: -3px;
+}
+
+/* --- Map --- */
+
+.icoMap{
+	width: 11px;
+	height: 35px;
+	border: solid 1px;
+	border-color: var(--Color1);
+	transform: skewY(-25deg);
+	border-radius: 1px;
+}
+
+.icoMap::before{
+	content: "";
+	display: block;
+	width: 11px;
+	height: 33px;
+	border: solid 1px;
+	border-color: var(--Color1);
+	transform: skewY(45deg);
+	left: -13px;
+	top: -7px;
+	position: relative;
+	border-radius: 1px;
+}
+
+.icoMap::after{
+	content: "";
+	display: block;
+	width: 11px;
+	height: 33px;
+	border: solid 1px;
+	border-color: var(--Color1);
+	transform: skewY(45deg);
+	border-radius: 1px;
+	float: right;
+	right:-13px;
+	top: -30px;
+	position: relative;
+}
+
+/* --- Camera --- */
+
+.icoCamera{
+	width: 35px; 
+	height: 23px;
+	border: solid 1px;
+	border-color: var(--Color1);
+}
+
+.icoCamera::before{
+	content: "·";
+	color: var(--Color1);
+	display: block;
+	font-size: 13px;
+	text-align: center;
+	width: 12px;
+	height: 14px;
+	border-radius: 50%;
+	border: solid 1px;
+	border-color: var(--Color1);
+	padding-right: 2px;
+	margin: 3px auto;
+	text-align: center;
+}
+
+.icoCamera::after{
+	width: 10px;
+	height: 2px;
+	border: solid 1px;
+	border-color: var(--Color1);
+	float: right;
+	top: -26px;
+	position: relative;
+	display: block;
+	content: "";
+}
+
+
+/* --- Burguer --- */
+
+
+.icoBurguer{
+	width: 35px;
+	height: 1px;
+	background: var(--Color1);
+}
+
+.icoBurguer::before{
+	content: "";
+	display: block;
+	position: relative;
+	top: -13px;
+	width: 35px;
+	height: 1px;
+	background: var(--Color1);
+
+}
+
+.icoBurguer::after{
+	content: "";
+	display: block;
+	position: relative;
+	bottom: -13px;
+	width: 35px;
+	height: 1px;
+	background: var(--Color1);
+
+}
+
+/* --- close --- */
+
+
+.icoClose{
+	width: 35px;
+	height: 1px;
+	background: transparent;
+}
+
+.icoClose::before{
+	content: "";
+	display: block;
+	position: relative;
+	width: 35px;
+	height: 1px;
+	background: var(--Color1);
+	transform: rotate(45deg);
+
+}
+
+.icoClose::after{
+	content: "";
+	display: block;
+	position: relative;
+	width: 35px;
+	height: 1px;
+	background: var(--Color1);
+	transform: rotate(-45deg);
+
+}
+
+
+/* --- clock --- */
+
+.icoClock{
+	width: 35px;
+	height: 35px;
+	border:solid 1px;
+	border-color: var(--Color1);
+	border-radius: 50%;
+}
+
+.icoClock::before{
+	display: block;
+	content: "";
+	width: 8px;
+	height: 1px;
+	margin: auto;
+	position: relative;
+	top: 17px;
+	left: 3px;
+	background: var(--Color1);
+}
+
+.icoClock::after{
+	display: block;
+	content: "";
+	width: 1px;
+	height: 14px;
+	margin: auto;
+	position: relative;
+	top: 4px;
+	background: var(--Color1);
+}
+
+/* --- Play --- */
+
+.icoPlay{
+	height: 35px;
+	width: 1px;
+	background: var(--Color1);
+	position: relative;
+	left: -6px;
+}
+
+.icoPlay::before{
+	display: block;
+	content: "";
+	width: 24px;
+	height: 24px;
+	border-top: none;
+	border-bottom: solid 1px;
+	border-left: solid 1px;
+	border-right: none;
+	border-color: var(--Color1);
+	transform: rotate(-135deg);
+	float: left;
+	left: -12px;
+	top: 5px;
+	position: relative;
+}
+
+/* --- Pause --- */
+
+.icoPause{
+	width: 11px;
+	height: 35px;
+	border: solid 1px;
+	border-color: var(--Color1);
+	position: relative;
+	left: -7px;
+}
+
+.icoPause::before{
+	box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+	content: "";
+	display: block;
+	width: 11px;
+	height: 35px;
+	border: solid 1px;
+	float: left;
+	left: 16px;
+	top: -1px;
+	position: relative;
+	border-color: var(--Color1);
+
+}
