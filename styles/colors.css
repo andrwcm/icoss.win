@@ -1,3 +1,4 @@
 :root {
-  --Color1: Red;
+  --Color: #C2B47B;
+  --AlphaColor: rgba(65,65,65,.5);
 }

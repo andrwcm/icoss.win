@@ -1,7 +1,7 @@
 @import url(../styles/colors.css);
 
 body{
-	background: #1b2b34;
+	background: black;
 	font-family: helvetica;
 	color: white;
 }
@@ -17,7 +17,7 @@ h1{
 }
 
 .container{
-	background: white;
+	background: #171717;
 	border: solid 1px rgba(0,0,0,.1);
 	min-width: 100px;
 	height: 100px;
