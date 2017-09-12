@@ -124,7 +124,7 @@
 
 
 .icoCalendar::before{
-	content: "· · · · · · · · "; 
+	content: "· · · · · · · · ";
 	line-height: 7px;
 	color: var(--Color);
 	font-size: 11px;
@@ -287,7 +287,7 @@
 /* --- Camera --- */
 
 .icoCamera{
-	width: 35px; 
+	width: 35px;
 	height: 23px;
 	border: solid 1px;
 	border-color: var(--Color);
@@ -720,7 +720,7 @@
 	position: relative;
 	top: -5px;
 	left: -1px;
-	border-radius: 1px 1px 0px 0px;	
+	border-radius: 1px 1px 0px 0px;
 }
 
 
@@ -1025,13 +1025,13 @@
 
 
 .icoDownload{
-	width: 35px;
-	height: 15px;
+	width: 27px;
+	height: 12px;
 	border-top: none;
 	border-left: solid 1px;
 	border-right: solid 1px;
 	border-bottom: solid 1px;
-	border-radius: 0px 0px 3px 3px;
+	border-radius: 0px 0px 2px 2px;
 	border-color: var(--Color);
 	position: relative;
 }
@@ -1040,14 +1040,14 @@
 	background: var(--Color);
 	margin: auto;
 	position: relative;
-	top: -13px;
+	top: -10px;
 	width: 1px;
 	height: 15px;
 }
 
 .icoDownload::after{
-	width: 8px;
-	height: 8px;
+	width: 6px;
+	height: 6px;
 	border-right: solid 1px;
 	border-top: none;
 	border-left: none;
@@ -1058,6 +1058,45 @@
 	margin:auto;
 	transform: rotate(45deg);
 }
+
+/* --- Export --- */
+
+
+.icoExport{
+	width: 27px;
+	height: 12px;
+	border-top: none;
+	border-left: solid 1px;
+	border-right: solid 1px;
+	border-bottom: solid 1px;
+	border-radius: 0px 0px 2px 2px;
+	border-color: var(--Color);
+	position: relative;
+}
+
+.icoExport::before{
+	width: 6px;
+	height: 6px;
+	border-right: solid 1px;
+	border-top: none;
+	border-left: none;
+	border-bottom: solid 1px;
+	border-color: var(--Color);
+	position: relative;
+	top: -10px;
+	margin:auto;
+	transform: rotate(-135deg);
+}
+
+.icoExport::after{
+	background: var(--Color);
+	margin: auto;
+	position: relative;
+	top: -17px;
+	width: 1px;
+	height: 15px;
+}
+
 
 
 /* --- Clip --- */
@@ -1420,11 +1459,11 @@
 	position: relative;
 }
 
-.icoAdd::before, 
+.icoAdd::before,
 .icoAdd::after{
 	content: "";
 	display: block;
-} 
+}
 
 .icoAdd::before{
 	width: 1px;
@@ -1461,7 +1500,7 @@
 }
 
 
-.icoLayers::before, 
+.icoLayers::before,
 .icoLayers::after{
 	content: "";
 	display: block;
@@ -2552,7 +2591,7 @@
 }
 
 .icoWifi::before{
-	width: 25px; 
+	width: 25px;
 	height: 25px;
 	border: double;
 	margin: auto;
@@ -2568,7 +2607,7 @@
 	font-size: 16px;
 	color: var(--Color);
 	line-height: 16px;
-	width: 13px; 
+	width: 13px;
 	height: 13px;
 	border: double;
 	margin: auto;
@@ -3169,24 +3208,316 @@
 /* --- Warning --- */
 
 .icoWarning{
-	width: 32px;
-	height: 1px;
-	border-bottom:solid 1px;
+	width: 28px;
+	height: 28px;
+	border:solid 1px;
 	border-color: var(--Color);
+	border-radius: 50%;
 }
 
 
 .icoWarning::before{
-	width: 29px;
-	height: 18px;
-	border-top: none;
-	border-right: none;
-	border-left:solid 1px;
-	border-bottom:solid 1px;
-	border-color: var(--Color);
-	transform: rotate(135deg) scaleY(1.7);
-	top: -11px;
+	width: 2px;
+	height: 10px;
+	background: var(--Color);
 	margin: auto;
+	top: 5px;
+}
+
+.icoWarning::after{
+	width: 2px;
+	height: 2px;
+	background: var(--Color);
+	margin: auto;
+	top: 8px;
+}
+
+/* --- Info --- */
+
+.icoInfo{
+	width: 28px;
+	height: 28px;
+	border:solid 1px;
+	border-color: var(--Color);
+	border-radius: 50%;
+}
+
+.icoInfo::before{
+	width: 2px;
+	height: 2px;
+	background: var(--Color);
+	margin: auto;
+	top: 6px;
+}
+
+.icoInfo::after{
+	width: 2px;
+	height: 10px;
+	background: var(--Color);
+	margin: auto;
+	top: 9px;
 }
 
 
+/* --- Telephone --- */
+
+.icoTelephone{
+	width: 7px;
+	height: 24px;
+	border:solid 4px;
+	border-color: var(--Color);
+	border-radius: 13px 0px 0px 13px;
+	border-right: none;
+	transform: rotate(-45deg);
+}
+
+.icoTelephone::before{
+	width: 2px;
+	height: 4px;
+	background: var(--Color);
+	right: -4px;
+	top:-4px;
+}
+
+.icoTelephone::after{
+	width: 2px;
+	height: 4px;
+	background: var(--Color);
+	right: -4px;
+	bottom:-12px;
+}
+
+
+/* --- Knife --- */
+
+.icoKnife{
+	width: 6px;
+	height: 17px;
+	border:solid 1px;
+	border-color: var(--Color);
+	border-radius: 0px 0px 13px 0px;
+	transform: rotate(45deg);
+}
+
+.icoKnife::before{
+	width: 2px;
+	height: 8px;
+	border:solid 1px;
+	border-color: var(--Color);
+	top:-10px;
+	left: -1px;
+}
+
+
+/* --- Dropper --- */
+
+.icoDropper{
+	width: 13px;
+	height: 5px;
+	border:solid 1px;
+	border-color: var(--Color);
+	transform: rotate(38deg);
+	top:4px;
+}
+
+.icoDropper::before{
+	width: 5px;
+	height: 6px;
+	border:solid 1px;
+	border-color: var(--Color);
+	border-radius: 3px 3px 0px 0px;
+	margin: auto;
+	top:-9px;
+}
+
+.icoDropper::after{
+	content: ".";
+	color: var(--Color);
+	line-height: 32px;
+	width: 3px;
+	height: 15px;
+	border:solid 1px;
+	border-color: var(--Color);
+	border-radius: 0px 0px 3px 3px;
+	margin: auto;
+	top:-4px;
+}
+
+
+/* --- Degrees --- */
+
+.icoDegrees{
+	width: 21px;
+	height: 21px;
+	border:solid 1px;
+	border-color: var(--Color);
+	border-top: none;
+	border-right: none;
+	top:4px;
+	overflow: hidden;
+	transform: skewX(-45deg);
+}
+
+.icoDegrees::before{
+	width: 13px;
+	height: 13px;
+	background: var(--Color);
+	border-radius: 50%;
+	top:13px;
+	left: -5px;
+	transform: skewX(45deg);
+}
+
+.icoDegrees::after{
+	content: "45º";
+	color: var(--Color);
+	top:-3px;
+	font-size: 7px;
+	transform: skewX(45deg);
+}
+
+/* --- Forbiden --- */
+
+.icoForbiden{
+	width: 27px;
+	height: 27px;
+	border: double;
+	border-color: var(--Color);
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+.icoForbiden::before{
+	height: 28px;
+	width: 1px;
+	background: var(--Color);
+	margin: auto;
+	transform: rotate(-45deg);
+	right: -3px;
+	top: -1px;
+}
+
+/* --- Brush --- */
+
+.icoBrush{
+	width: 6px;
+	height: 4px;
+	border: solid 1px;
+	border-color: var(--Color);
+	transform: rotate(45deg);
+}
+
+.icoBrush::before{
+	width: 4px;
+	height: 15px;
+	border: solid 1px;
+	border-color: var(--Color);
+	top:-20px;
+	left: -1px;
+	border-radius: 4px 4px 0px 0px;
+}
+
+.icoBrush::after{
+	width: 8px;
+	height: 8px;
+	border: solid 1px;
+	border-color: var(--Color);
+	top:-13px;
+	left: -3px;
+	transform: rotate(-135deg);
+	border-radius: 0px 4px 4px 4px;
+}
+
+/* --- FontSize --- */
+
+.icoFontSize{
+	width: 1px;
+	height: 14px;
+	background: var(--Color);
+	left: 9px;
+}
+
+.icoFontSize::before{
+	content: "A";
+	color: var(--Color);
+	font-family: Georgia;
+	font-size: 24px;
+	left: -21px;
+	top:-8px;
+}
+
+.icoFontSize::after{
+	width: 6px;
+	height: 6px;
+	border: solid 1px;
+	border-color: var(--Color);
+	border-bottom: none;
+	border-left: none;
+	top: -27px;
+	transform: rotate(-45deg);
+	left: -3px;
+}
+
+
+/* --- Color --- */
+
+.icoColor{
+	width: 17px;
+	height: 20px;
+	border: solid 1px;
+	border-color: var(--Color);
+	border-radius: 0px 0px 4px 4px;
+	transform: rotate(45deg);
+}
+
+.icoColor::after{
+	width: 4px;
+	height: 4px;
+	background: var(--Color);
+	float: right;
+	right: -10px;
+	top: -4px;
+	border-radius: 0px 4px 4px 4px;
+	transform: rotate(-5deg);
+}
+
+.icoColor::before{
+	width: 7px;
+	height: 5px;
+	border: solid 1px;
+	border-color: var(--Color);
+	left: -9px;
+	top: -1px;
+	border-radius: 4px 0px 0px 4px;
+}
+
+/* --- Gradient --- */
+
+.icoGradient{
+	background: linear-gradient(to left, rgba(0, 0, 0, 0), var(--Color));
+	width: 27px;
+	height: 15px;
+	border: solid 1px;
+	border-color: var(--Color);
+}
+
+
+/* --- Notifications --- */
+
+.icoNotifications{
+	width: 27px;
+	height: 27px;
+	border: solid 1px;
+	border-color: var(--Color);
+	border-radius: 6px;
+}
+
+.icoNotifications::before{
+	width: 12px;
+	height: 12px;
+	background: var(--Color);
+	border-radius: 50%;
+	float: right;
+	right: -5px;
+	top: -3px;
+}
