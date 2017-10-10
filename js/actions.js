@@ -1,11 +1,18 @@
-$(document).ready(function() {
-    $('.icoPhone').click(function(){
-        $(this).removeClass("icoPhone"),
-        $(this).addClass("icoCamera");
+
+    $('.ico').click(function(){
+        $(this).removeClass("icoLock"),
+        $(this).addClass("icoColor");
     });
 
-    $('.icoCamera').click(function(){
-        $(this).removeClass("icoCamera"),
-        $(this).addClass("icoPhone");
+    $('.icoForward').click(function(){
+        $(this).removeClass("icoForward"),
+        $(this).addClass("icoPlay");
     });
-});
+
+    $( "header h1" ).hover(
+      function() {
+        $( "header h1 span.logo div.letterO" ).addClass( "rotate" );
+      }, function() {
+        $( "header h1 span.logo div.letterO" ).removeClass( "rotate" );
+      }
+    );

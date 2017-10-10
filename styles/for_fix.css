@@ -1,0 +1,345 @@
+
+/* -- borders --- */
+
+
+.icoBorders{
+	width: 20px;
+	height: 20px;
+	border: solid 2px;
+	border-color: var(--Color);
+}
+
+
+.icoBorders::before{
+	width:7px;
+	height:7px;
+	border: solid 2px;
+	border-color: var(--Color);
+	left: -5px;
+	top: -2px;
+}
+
+.icoBorders::after{
+	width: 7px;
+	height: 7px;
+	border: solid 2px;
+	border-color: var(--Color);
+	float: right;
+	right: -2px;
+	top: -4px;
+}
+
+
+/* -- outside border--- */
+
+.icoOutsideBorders{
+	width: 20px;
+	height: 20px;
+	border: solid 2px;
+	border-color: var(--Color);
+}
+
+
+.icoOutsideBorders::before{
+	width:8px;
+	height:7px;
+	border: none;
+	border-right: dotted 1px;
+	border-bottom: dotted 1px;
+	border-color: var(--Color);
+	left: -3px;
+	top: -2px;
+}
+
+.icoOutsideBorders::after{
+	width: 7px;
+	height: 7px;
+	border: none;
+	border-top: dotted 1px;
+	border-left: dotted 1px;
+	border-color: var(--Color);
+	float: right;
+	right: -2px;
+	top: -2px;
+}
+
+
+
+/* -- inside border--- */
+
+
+.icoInsideBorders{
+	width: 25px;
+	height: 25px;
+	border-left: dotted 1px;
+	border-right: dotted 1px;
+	border-top: dotted 1px;
+	border-bottom: dotted 1px;
+	border-color: var(--Color);
+}
+
+
+.icoInsideBorders::before{
+	width:11px;
+	height:11px;
+	border-left: none;
+	border-right: solid 2px;
+	border-top: none;
+	border-bottom: solid 2px;
+	border-color: var(--Color);
+	left: 0px;
+	top: 0px;
+}
+
+.icoInsideBorders::after{
+	width: 11px;
+	height: 11px;
+	border-left: solid 2px;
+	border-right: none;
+	border-top: solid 2px;
+	border-bottom:none;
+	border-color: var(--Color);
+	float: right;
+	right: -1px;
+	top: -2px;
+}
+
+
+/* -- top border--- */
+
+
+.icoTopBorders{
+	width: 25px;
+	height: 25px;
+	border-left: dotted 1px;
+	border-right: dotted 1px;
+	border-top: solid 2px;
+	border-bottom: dotted 1px;
+	border-color: var(--Color);
+}
+
+
+.icoTopBorders::before{
+	width:10px;
+	height:10px;
+	border-left: none;
+	border-right: dotted 1px;
+	border-top: none;
+	border-bottom: dotted 1px;
+	border-color: var(--Color);
+	left: 1px;
+	top: 0px;
+}
+
+.icoTopBorders::after{
+	width: 10px;
+	height: 10px;
+	border-left: dotted 1px;
+	border-right: none;
+	border-top: dotted 1px;
+	border-bottom: none;
+	border-color: var(--Color);
+	float: right;
+	right: 1px;
+	top: -1px;
+}
+
+
+/* -- Bottom border--- */
+
+
+.icoBottomBorders{
+	width: 25px;
+	height: 25px;
+	border-left: dotted 1px;
+	border-right: dotted 1px;
+	border-top: dotted 1px;
+	border-bottom: solid 2px;
+	border-color: var(--Color);
+}
+
+
+.icoBottomBorders::before{
+	width:10px;
+	height:10px;
+	border-left: none;
+	border-right: dotted 1px;
+	border-top: none;
+	border-bottom: dotted 1px;
+	border-color: var(--Color);
+	left: 1px;
+	top: 0px;
+}
+
+.icoBottomBorders::after{
+	width: 10px;
+	height: 10px;
+	border-left: dotted 1px;
+	border-right: none;
+	border-top: dotted 1px;
+	border-bottom: none;
+	border-color: var(--Color);
+	float: right;
+	right: 1px;
+	top: -1px;
+}
+
+
+/* -- Left border--- */
+
+
+.icoLeftBorders{
+	width: 25px;
+	height: 25px;
+	border-left: solid 2px;
+	border-right: dotted 1px;
+	border-top: dotted 1px;
+	border-bottom: dotted 1px;
+	border-color: var(--Color);
+}
+
+
+.icoLeftBorders::before{
+	width:10px;
+	height:10px;
+	border-left: none;
+	border-right: dotted 1px;
+	border-top: none;
+	border-bottom: dotted 1px;
+	border-color: var(--Color);
+	left: 1px;
+	top: 1px;
+}
+
+.icoLeftBorders::after{
+	width: 10px;
+	height: 10px;
+	border-left: dotted 1px;
+	border-right: none;
+	border-top: dotted 1px;
+	border-bottom: none;
+	border-color: var(--Color);
+	float: right;
+	right: 1px;
+	top: 0px;
+}
+
+
+/* -- Rightborder--- */
+
+
+.icoRightBorders{
+	width: 25px;
+	height: 25px;
+	border-left: dotted 1px;
+	border-right: solid 2px;
+	border-top: dotted 1px;
+	border-bottom: dotted 1px;
+	border-color: var(--Color);
+}
+
+
+.icoRightBorders::before{
+	width:10px;
+	height:10px;
+	border-left: none;
+	border-right: dotted 1px;
+	border-top: none;
+	border-bottom: dotted 1px;
+	border-color: var(--Color);
+	left: 1px;
+	top: 1px;
+}
+
+.icoRightBorders::after{
+	width: 10px;
+	height: 10px;
+	border-left: dotted 1px;
+	border-right: none;
+	border-top: dotted 1px;
+	border-bottom: none;
+	border-color: var(--Color);
+	float: right;
+	right: 1px;
+	top: 0px;
+}
+
+
+/* -- Center border--- */
+
+
+.icoCenterBorders{
+	width: 25px;
+	height: 25px;
+	border-left: dotted 1px;
+	border-right: dotted 1px;
+	border-top: dotted 1px;
+	border-bottom: dotted 1px;
+	border-color: var(--Color);
+}
+
+
+.icoCenterBorders::before{
+	width:10px;
+	height:10px;
+	border-left: none;
+	border-right: solid 2px;
+	border-top: none;
+	border-bottom: dotted 1px;
+	border-color: var(--Color);
+	left: 1px;
+	top: 1px;
+}
+
+.icoCenterBorders::after{
+	width: 10px;
+	height: 10px;
+	border-left: solid 2px;
+	border-right: none;
+	border-top: dotted 1px;
+	border-bottom: none;
+	border-color: var(--Color);
+	float: right;
+	right: 0px;
+	top: 0px;
+}
+
+
+/* -- Middle border--- */
+
+
+.icoMiddleBorders{
+	width: 25px;
+	height: 25px;
+	border-left: dotted 1px;
+	border-right: dotted 1px;
+	border-top: dotted 1px;
+	border-bottom: dotted 1px;
+	border-color: var(--Color);
+}
+
+
+.icoMiddleBorders::before{
+	width:10px;
+	height:10px;
+	border-left: none;
+	border-right: dotted 1px;
+	border-top: none;
+	border-bottom: solid 2px;
+	border-color: var(--Color);
+	left: 1px;
+	top: 1px;
+}
+
+.icoMiddleBorders::after{
+	width: 10px;
+	height: 10px;
+	border-left: dotted 1px;
+	border-right: none;
+	border-top: solid 2px;
+	border-bottom: none;
+	border-color: var(--Color);
+	float: right;
+	right: 1px;
+	top: -1px;
+}

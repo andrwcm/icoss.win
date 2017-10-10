@@ -6,11 +6,7 @@ body{
 	color: white;
 }
 
-section#iconList{
-	width: 700px;
-	height: auto;
-	margin: 40px auto;
-}
+br{}
 
 h1{
 	margin: 50px auto;
@@ -19,10 +15,19 @@ h1{
 .container{
 	background: #171717;
 	border: solid 1px rgba(0,0,0,.1);
-	min-width: 100px;
-	height: 100px;
-	margin:-1px !important;
-	display: table-cell;
+	width: 100px;
+	cursor: pointer;
+	height: 70px;
+	padding-top: 30px;
+	margin:2px 0px;
+	display: inline-block;
+	opacity: .2;
 	vertical-align: middle;
 	text-align: center;
+	transition-duration: 2s;
+}
+
+.container:hover{
+	opacity: 1;
+	transition-duration: .5s;
 }
