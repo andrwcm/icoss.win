@@ -1,0 +1,3311 @@
+@import url(../styles/colors.css);
+
+
+/* --- Icon base --- */
+
+::before,
+::after{
+	content: "";
+	display: block;
+	position: relative;
+	transition: .5s;
+	font-style: normal;
+	margin: auto;
+}
+
+
+.ico{
+	box-sizing: border-box;
+  box-sizing: border-box;
+	display: inline-block;
+	position: relative;
+	margin: 8px;
+	transition: .5s;
+}
+
+
+
+/* --- Icon Sizes --- */
+
+
+.iconSize{
+	width: auto;
+	height: auto;
+	display: inline-block;
+}
+
+
+.iconSize.tiny{
+	transform: scale(.6);
+}
+
+.iconSize.small{
+	transform: scale(.8);
+}
+
+.iconSize.large{
+	transform: scale(1.2);
+}
+
+.iconSize.xxl{
+	transform: scale(3);
+}
+
+
+/* --- Phone --- */
+
+.icoPhone{
+	border: 1px solid;
+	border-color: var(--Color);
+	width: 15px;
+	height: 25px;
+}
+
+.icoPhone::after, .icoPhone::before{
+	box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.icoPhone::before{
+	border: solid 1px;
+	border-color: var(--Color);
+	height: 17px;
+	margin: 2px auto;
+	position: relative;
+	left: -1px;
+	width: 15px;
+}
+
+.icoPhone::after{
+	background: var(--Color);
+	border-radius: 50%;
+	height: 2px;
+	top:-1px;
+	width: 2px;
+}
+
+
+/* --- Profile --- */
+
+.icoProfile{
+  border: solid 1px;
+  border-color: var(--Color);
+  border-radius: 50%;
+	height: 26px;
+	width: 26px;
+	overflow: hidden;
+}
+
+.icoProfile::before, .icoProfile::after{
+	box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.icoProfile::before{
+	height: 8px;
+	width: 8px;
+	border-radius: 50%;
+	border: solid 1px;
+	border-color: var(--Color);
+	top: 7px;
+}
+
+.icoProfile::after{
+	border: solid 1px;
+	border-color: var(--Color);
+	border-radius: 5px;
+	height: 11px;
+	top:9px;
+	width: 12px;
+}
+
+
+/* --- Calendar --- */
+
+.icoCalendar{
+  border:solid 1px;
+  border-color: var(--Color);
+	height: 26px;
+	margin: 3px auto;
+	width: 26px;
+
+}
+
+.icoCalendar::before{
+	content: "· · · · · · · · ";
+	line-height: 7px;
+	color: var(--Color);
+	font-size: 9px;
+	font-weight: bold;
+	font-family: arial;
+	float: left;
+	left: 2px;
+	top:9px;
+	width: 24px;
+}
+
+.icoCalendar::after{
+	width:24px;
+	left: -1px;
+	top: -1px;
+	height: 6px;
+	border:solid 1px;
+  border-color: var(--Color);
+}
+
+
+/* --- Link --- */
+
+.icoLink{
+	width: 1px;
+	height: 13px;
+	background: var(--Color);
+	position: relative;
+	transform: rotate(45deg);
+}
+
+.icoLink::before{
+	width: 7px;
+	height: 9px;
+	border: solid 1px;
+	border-color: var(--Color);
+	position: relative;
+	left: -4px;
+	top:-8px;
+}
+
+.icoLink::after{
+	width: 7px;
+	height: 9px;
+	border: solid 1px;
+	border-color: var(--Color);
+	position: relative;
+	left: -4px;
+	top:-1px;
+}
+
+
+/* --- Lock --- */
+
+.icoLock{
+	width: 25px;
+	height: 17px;
+	border:solid 1px;
+	border-color: var(--Color);
+	top: 3px;
+}
+
+.icoLock::after{
+	width: 11px;
+	height: 8px;
+	border-radius: 7px 7px 0px 0px;
+	border: solid 1px;
+	border-color: var(--Color);
+	position: relative;
+	top: -21px;
+}
+
+.icoLock::before{
+	width: 9px;
+	height: 9px;
+	border-radius: 50%;
+	border: solid 1px;
+	border-color: var(--Color);
+	top: 2px;
+}
+
+
+/* --- Search--- */
+
+.icoSearch{
+	width: 22px;
+	height: 22px;
+	border:solid 1px;
+	border-color: var(--Color);
+	border-radius: 50%;
+	left: 2px;
+	top: -3px;
+}
+
+.icoSearch::before{
+	width: 1px;
+	height: 14px;
+	background: var(--Color);
+	transform: rotate(45deg);
+	position: relative;
+	top: 16px;
+	left: -12px;
+}
+
+/* --- Map --- */
+
+.icoMap{
+	width: 11px;
+	height: 26px;
+	border: solid 1px;
+	border-color: var(--Color);
+	transform: skewY(-25deg);
+	border-radius: 1px;
+}
+
+.icoMap::before{
+	width: 9px;
+	height: 24px;
+	border: solid 1px;
+	border-color: var(--Color);
+	transform: skewY(45deg);
+	left: -11px;
+	top: -6px;
+	border-radius: 1px;
+}
+
+.icoMap::after{
+	width: 9px;
+	height: 24px;
+	border: solid 1px;
+	border-color: var(--Color);
+	transform: skewY(45deg);
+	border-radius: 1px;
+	float: right;
+	right:-11px;
+	top: -22px;
+	position: relative;
+}
+
+/* --- Camera --- */
+
+.icoCamera{
+	width: 25px;
+	height: 15px;
+	border: solid 1px;
+	border-color: var(--Color);
+}
+
+.icoCamera::before{
+	content: "__";
+	color: var(--Color);
+	font-size: 8px;
+	line-height: 1px;
+	width: 7px;
+	height: 7px;
+	border-radius: 50%;
+	overflow: hidden;
+	border: solid 1px;
+	border-color: var(--Color);
+	top: 2px;
+}
+
+.icoCamera::after{
+	width: 6px;
+	height: 2px;
+	border: solid 1px;
+	border-color: var(--Color);
+	float: right;
+	top: -13px;
+	right: -1px;
+	position: relative;
+}
+
+
+/* --- Burguer --- */
+
+.icoBurguer{
+	width: 25px;
+	height: 1px;
+	background: var(--Color);
+}
+
+.icoBurguer::before{
+	top: -6px;
+	width: 25px;
+	height: 1px;
+	background: var(--Color);
+
+}
+
+.icoBurguer::after{
+	bottom: -6px;
+	width: 25px;
+	height: 1px;
+	background: var(--Color);
+
+}
+
+/* --- close --- */
+
+
+.icoClose{
+	width: 25px;
+	height: 1px;
+	background: transparent;
+}
+
+.icoClose::before{
+	width: 25px;
+	height: 1px;
+	background: var(--Color);
+	transform: rotate(45deg);
+
+}
+
+.icoClose::after{
+	width: 25px;
+	height: 1px;
+	background: var(--Color);
+	transform: rotate(-45deg);
+
+}
+
+
+/* --- clock --- */
+
+.icoClock{
+	width: 25px;
+	height: 25px;
+	border:solid 1px;
+	border-color: var(--Color);
+	border-radius: 50%;
+}
+
+.icoClock::before{
+	width: 4px;
+	height: 1px;
+	margin: auto;
+	position: relative;
+	top: 13px;
+	left: 2px;
+	background: var(--Color);
+}
+
+.icoClock::after{
+	width: 1px;
+	height: 9px;
+	margin: auto;
+	position: relative;
+	top: 4px;
+	background: var(--Color);
+}
+
+/* --- Play --- */
+
+.icoPlay{
+	height: 25px;
+	width: 1px;
+	background: var(--Color);
+	position: relative;
+	left: -6px;
+}
+
+.icoPlay::before{
+	width: 17px;
+	height: 17px;
+	border-top: none;
+	border-bottom: solid 1px;
+	border-left: solid 1px;
+	border-right: none;
+	border-color: var(--Color);
+	transform: rotate(-135deg);
+	float: left;
+	left: -8px;
+	top: 4px;
+}
+
+/* --- Pause --- */
+
+.icoPause{
+	width: 8px;
+	height: 25px;
+	border: solid 1px;
+	border-color: var(--Color);
+	left: -2px;
+}
+
+.icoPause::before{
+	width: 6px;
+	height: 23px;
+	border: solid 1px;
+	float: left;
+	left: 11px;
+	top: -1px;
+	border-color: var(--Color);
+}
+
+/* --- Forward--- */
+
+.icoForward{
+	width: 15px;
+	height: 15px;
+	border-top: none;
+	border-bottom: solid 1px;
+	border-right: solid 1px;
+	border-left: none;
+	border-color: var(--Color);
+	transform: rotate(-45deg);
+}
+
+.icoForward::before{
+	width: 15px;
+	height: 15px;
+	border-top: none;
+	border-bottom: solid 1px;
+	border-right: solid 1px;
+	border-left: none;
+	border-color: var(--Color);
+	left: -6px;
+	top:-6px;
+}
+
+
+/* --- Rewind --- */
+
+
+.icoRewind{
+	width: 15px;
+	height: 15px;
+	border-top: none;
+	border-bottom: solid 1px;
+	border-right: none;
+	border-left: solid 1px;
+	border-color: var(--Color);
+	transform: rotate(45deg);
+}
+
+.icoRewind::before{
+	width: 14px;
+	height: 14px;
+	border-top: none;
+	border-bottom: solid 1px;
+	border-right: none;
+	border-left: solid 1px;
+	border-color: var(--Color);
+	left: -6px;
+	top:5px;
+}
+
+
+/* --- Mail --- */
+
+.icoMail{
+	height: 17px;
+	width: 26px;
+	border: solid 1px;
+	border-color: var(--Color);
+}
+
+.icoMail::before{
+	border-bottom: 1px solid;
+	border-top: none;
+	border-right: solid 1px;
+	border-left: none;
+	border-color: var(--Color);
+	height: 17px;
+	width: 17px;
+	transform: rotate(45deg);
+	top: -9px;
+}
+
+
+/* --- Home--- */
+
+.icoHome{
+	width: 25px;
+	height: 15px;
+	border-top: none;
+	border-left: solid 1px;
+	border-right: solid 1px;
+	border-bottom: solid 1px;
+	border-color: var(--Color);
+	position: relative;
+	top: 3px;
+}
+
+
+.icoHome::after{
+	border: solid 1px;
+	border-color: var(--Color);
+	width: 5px;
+	height: 7px;
+	margin: auto;
+	position: relative;
+	top: -15px;
+}
+
+.icoHome::before{
+	border-bottom: 1px solid;
+	border-top: none;
+	border-right: solid 1px;
+	border-left: none;
+	border-color: var(--Color);
+	height:20px;
+	width:20px;
+	transform: rotate(-135deg);
+	top: -8px;
+}
+
+
+/* --- Down --- */
+
+
+.icoDown{
+	border-bottom: 1px solid;
+	border-top: none;
+	border-right: solid 1px;
+	border-left: none;
+	border-color: var(--Color);
+	height: 17px;
+	width:17px;
+	transform: rotate(45deg);
+	position: relative;
+}
+
+.icoDown::before{
+	width: 1px;
+	height: 21px;
+	margin: auto;
+	background: var(--Color);
+	transform: rotate(-45deg);
+	position: relative;
+	right: 0px;
+	top: -2px;
+}
+
+/* --- Up --- */
+
+.icoUp{
+	border-bottom: 1px solid;
+	border-top: none;
+	border-right: solid 1px;
+	border-left: none;
+	border-color: var(--Color);
+	height: 17px;
+	width:17px;
+	transform: rotate(-135deg);
+	position: relative;
+}
+
+.icoUp::before{
+	width: 1px;
+	height: 21px;
+	margin: auto;
+	background: var(--Color);
+	transform: rotate(-45deg);
+	position: relative;
+	right: 0px;
+	top: -2px;
+}
+
+
+/* --- Right --- */
+
+
+.icoRight{
+	border-bottom: 1px solid;
+	border-top: none;
+	border-right: solid 1px;
+	border-left: none;
+	border-color: var(--Color);
+	height: 17px;
+	width:17px;
+	transform: rotate(-45deg);
+	position: relative;
+}
+
+.icoRight::before{
+	width: 1px;
+	height: 21px;
+	margin: auto;
+	background: var(--Color);
+	transform: rotate(-45deg);
+	position: relative;
+	top: -2px;
+}
+
+
+/* --- Left --- */
+
+
+.icoLeft{
+	border-bottom: 1px solid;
+	border-top: none;
+	border-right: solid 1px;
+	border-left: none;
+	border-color: var(--Color);
+	height: 17px;
+	width:17px;
+	transform: rotate(135deg);
+	position: relative;
+}
+
+.icoLeft::before{
+	width: 1px;
+	height: 21px;
+	margin: auto;
+	background: var(--Color);
+	transform: rotate(-45deg);
+	position: relative;
+	top: -2px;
+}
+
+
+/* --- Folder --- */
+
+.icoFolder{
+	width: 26px;
+	height: 17px;
+	border-radius: 0px 2px 2px 2px;
+	border: solid 1px;
+	border-color: var(--Color);
+}
+
+.icoFolder::before{
+	content: "";
+	display: block;
+	width: 12px;
+	height: 3px;
+	border: solid 1px;
+	border-color: var(--Color);
+	position: relative;
+	top: -5px;
+	left: -6px;
+	border-radius: 1px 1px 0px 0px;
+}
+
+/* --- Copy --- */
+
+.icoCopy{
+	width: 18px;
+	height: 21px;
+	border: solid 1px;
+	border-color: var(--Color);
+}
+
+.icoCopy::before{
+	width: 18px;
+	height: 21px;
+	border-bottom: none;
+	border-left: none;
+	border-right: solid 1px;
+	border-top: solid 1px;
+	border-color: var(--Color);
+	position: relative;
+	top: -5px;
+	right: -2px;
+}
+.icoCopy::after{
+	content: "_ _ _ _";
+	font-size: 10px;
+	line-height: 2px;
+	color: var(--Color);
+	left: 5px;
+	text-align: left;
+	height: 1px;
+	widows: 10px;
+	position: relative;
+	top: -21px;
+	float: left;
+	width: 11px;
+}
+
+
+/* --- Pencil--- */
+
+
+.icoPencil{
+	width: 7px;
+	height: 16px;
+	border: solid 1px;
+	border-color: var(--Color);
+	transform: rotate(45deg);
+}
+
+
+.icoPencil::before{
+	width: 5px;
+	height: 4px;
+	border: solid 1px;
+	border-color: var(--Color);
+	border-radius: 3px 3px 0px 0px;
+	top: -8px;
+	left: -1px;
+}
+
+
+.icoPencil::after{
+	width: 4px;
+	height: 4px;
+	border-left: none;
+	border-bottom: none;
+	border-right: solid 1px;
+	border-top: solid 1px;
+	border-color: var(--Color);
+	bottom: -7px;
+	transform: rotate(135deg);
+}
+
+
+/* --- Delete --- */
+
+.icoDelete{
+	width: 16px;
+	height: 19px;
+	border: solid 1px;
+	border-color: var(--Color);
+	border-radius: 0px 0px 3px 3px;
+}
+
+.icoDelete::before{
+	width: 4px;
+	height: 21px;
+	border: solid 1px;
+	border-color: var(--Color);
+	top: -5px;
+}
+
+
+.icoDelete::after{
+	width: 22px;
+	height: 1px;
+	background: var(--Color);
+	top: -24px;
+	left: -3px;
+}
+
+
+/* --- Bubble --- */
+
+.icoBubble{
+	width: 25px;
+	height: 20px;
+	border: solid 1px;
+	border-color: var(--Color);
+	border-radius: 5px;
+	top: -3px;
+}
+
+.icoBubble::before{
+	content: "···";
+	font-size: 15px;
+	color: var(--Color);
+	left: 6px;
+}
+
+.icoBubble::after{
+	width: 6px;
+	height: 6px;
+	border-left: none;
+	border-bottom: none;
+	border-right: solid 1px;
+	border-top: solid 1px;
+	border-color: var(--Color);
+	top: -1px;
+	transform: rotate(135deg);
+}
+
+/* --- Place --- */
+
+.icoPlace{
+	width: 25px;
+	height: 25px;
+	border: solid 1px;
+	border-color: var(--Color);
+	border-radius: 15px 14px 0px 14px;
+	transform: rotate(45deg);
+}
+
+.icoPlace::before{
+	width: 9px;
+	height: 9px;
+	border-radius: 50%;
+	border: solid 1px;
+	border-color: var(--Color);
+	top: 6px;
+}
+
+
+/* --- Tag --- */
+
+
+.icoTag{
+	width: 20px;
+	height: 18px;
+	border-right: none;
+	border-top: solid 1px;
+	border-left: solid 1px;
+	border-bottom: solid 1px;
+	border-color: var(--Color);
+	border-radius: 3px 0px 0px 3px;
+	transform: rotate(-45deg);
+	position: relative;
+	top: 4px;
+}
+
+.icoTag::before{
+	content: "";
+	display: block;
+	width: 11px;
+	height: 11px;
+	border-right: solid 1px;
+	border-top: none;
+	border-left: none;
+	border-bottom: solid 1px;
+	border-color: var(--Color);
+	float: right;
+	position: relative;
+	margin: auto;
+	right: -6px;
+	top: 2px;
+	transform: rotate(-45deg);
+}
+
+.icoTag::after{
+	width: 4px;
+	height: 4px;
+	border-radius: 50%;
+	border: solid 1px;
+	border-color: var(--Color);
+	position: relative;
+	margin: auto;
+	float: right;
+	top: 5px;
+	right:  -11px;
+}
+
+
+/* --- Crop --- */
+
+
+.icoCrop{
+	width: 16px;
+	height: 16px;
+	border-right: none;
+	border-top: none;
+	border-left: solid 1px;
+	border-bottom: solid 1px;
+	border-color: var(--Color);
+	position: relative;
+	top: -2px;
+	left: 3px;
+}
+
+.icoCrop::before{
+	width: 16px;
+	height: 16px;
+	border-right: solid 1px;
+	border-top: none;
+	border-left: none;
+	border-bottom: solid 1px;
+	border-color: var(--Color);
+	position: relative;
+	transform: rotate(-90deg);
+	top: 8px;
+	left: -10px;
+}
+
+
+/* --- Batery --- */
+
+.icoBatery{
+	width: 20px;
+	height: 9px;
+	border:solid 1px;
+	border-radius: 2px;
+	border-color: var(--Color);
+}
+
+.icoBatery::before{
+	background: var(--Color);
+	width: 5px;
+	height: 8px;
+	float: left;
+	border-radius: 2px 0px 0px 2px;
+}
+
+.icoBatery::after{
+	width: 1px;
+	height: 4px;
+	border: solid 1px;
+	border-color: var(--Color);
+	border-radius: 0px 2px 2px 0px;
+	float: right;
+	right: -3px;
+	top: 1px;
+	position: relative;
+}
+
+/* --- Download --- */
+
+
+.icoDownload{
+	width: 23px;
+	height: 9px;
+	border-top: none;
+	border-left: solid 1px;
+	border-right: solid 1px;
+	border-bottom: solid 1px;
+	border-radius: 0px 0px 2px 2px;
+	border-color: var(--Color);
+	position: relative;
+}
+
+.icoDownload::before{
+	background: var(--Color);
+	top: -13px;
+	width: 1px;
+	height: 15px;
+}
+
+.icoDownload::after{
+	width: 6px;
+	height: 6px;
+	border-right: solid 1px;
+	border-top: none;
+	border-left: none;
+	border-bottom: solid 1px;
+	border-color: var(--Color);
+	top: -21px;
+	transform: rotate(45deg);
+}
+
+/* --- Export --- */
+
+
+.icoExport{
+	width: 23px;
+	height: 9px;
+	border-top: none;
+	border-left: solid 1px;
+	border-right: solid 1px;
+	border-bottom: solid 1px;
+	border-radius: 0px 0px 2px 2px;
+	border-color: var(--Color);
+	position: relative;
+}
+
+.icoExport::before{
+	width: 6px;
+	height: 6px;
+	border-right: solid 1px;
+	border-top: none;
+	border-left: none;
+	border-bottom: solid 1px;
+	border-color: var(--Color);
+	position: relative;
+	top: -12px;
+	margin:auto;
+	transform: rotate(-135deg);
+}
+
+.icoExport::after{
+	background: var(--Color);
+	margin: auto;
+	position: relative;
+	top: -20px;
+	width: 1px;
+	height: 15px;
+}
+
+
+
+/* --- Clip --- */
+
+.icoClip{
+	width: 8px;
+	height: 26px;
+	border-left: none;
+	border-top: solid 1px;
+	border-bottom: solid 1px;
+	border-right: solid 1px;
+	border-radius: 0px 8px 8px 0px;
+	left: 2px;
+	border-color: var(--Color);
+}
+
+.icoClip::before{
+	width: 6px;
+	height: 20px;
+	border-right: none;
+	border-top: solid 1px;
+	border-bottom: solid 1px;
+	border-left: solid 1px;
+	border-radius: 8px 0px 0px 8px;
+	border-color: var(--Color);
+	position: relative;
+	left: -7px;
+	top: -1px;
+}
+
+
+.icoClip::after{
+	width: 4px;
+	height: 16px;
+	border-left: none;
+	border-top: solid 1px;
+	border-bottom: solid 1px;
+	border-right: solid 1px;
+	border-radius: 0px 8px 8px 0px;
+	border-color: var(--Color);
+	position: relative;
+	left: -1px;
+	top: -19px;
+}
+
+/* --- Bluetooth --- */
+
+
+.icoBluetooth{
+	width: 10px;
+	height: 24px;
+	border-left: solid 1px;
+	border-top: solid 1px;
+	border-bottom: none;
+	border-right: none;
+	left: -4px;
+	top: 3px;
+	border-color: var(--Color);
+	transform: rotate(135deg);
+}
+
+
+.icoBluetooth::before{
+	width: 25px;
+	height: 9px;
+	border-left: none;
+	border-top: none;
+	border-bottom: solid 1px;
+	border-right: solid 1px;
+	position: relative;
+	left: 3px;
+	border-color: var(--Color);
+	top: 8px;
+	left: -10px;
+	transform: rotate(-180deg);
+}
+
+
+.icoBluetooth::after{
+	width: 1px;
+	height: 26px;
+	background: var(--Color);
+	transform: rotate(45deg);
+	position: relative;
+	left: -5px;
+	top: -14px;
+}
+
+
+/* --- Image --- */
+
+.icoImage{
+	width: 26px;
+	height: 26px;
+	border: solid 1px;
+	border-color: var(--Color);
+	position: relative;
+	border-radius: 3px;
+	overflow: hidden;
+}
+
+.icoImage::before{
+	width: 20px;
+	height: 25px;
+	border-left: none;
+	border-top: none;
+	border-bottom: solid 1px;
+	border-right: solid 1px;
+	left: 3px;
+	border-color: var(--Color);
+	top: 19px;
+	left: 5px;
+	transform: rotate(-135deg);
+}
+
+.icoImage::after{
+	width: 6px;
+	height: 6px;
+	border: solid 1px;
+	border-color: var(--Color);
+	border-radius: 50%;
+	top: -21px;
+	left: -3px;
+}
+
+
+/* --- Pc --- */
+
+
+.icoPc{
+	width: 25px;
+	height: 18px;
+	border: solid 1px;
+	border-color: var(--Color);
+	border-radius: 3px;
+}
+
+.icoPc::before{
+	width: 1px;
+	height: 5px;
+	background: var(--Color);
+	top: 17px;
+}
+
+.icoPc::after{
+	width: 15px;
+	height: 1px;
+	background: var(--Color);
+	top: 17px;
+}
+
+
+/* --- hearth --- */
+
+
+.icoHearth{
+	width: 14px;
+	height: 26px;
+	border-left: solid 1px;
+	border-top: solid 1px;
+	border-bottom: none;
+	border-right: solid 1px;
+	border-color: var(--Color);
+	position: relative;
+	border-radius: 13px 13px 0px 0px;
+	transform: rotate(-45deg);
+	position: relative;
+	left: -6px;
+	top: 3px;
+}
+
+.icoHearth::before{
+	width: 13px;
+	height: 25px;
+	border-left: solid 1px;
+	border-top: solid 1px;
+	border-bottom: none;
+	border-right: solid 1px;
+	border-color: var(--Color);
+	border-radius: 13px 13px 0px 0px;
+	left: 5px;
+	top:5px;
+	transform: rotate(90deg);
+}
+
+
+/* --- Mug --- */
+
+.icoMug{
+	width: 20px;
+	height: 17px;
+	border: solid 1px;
+	border-color: var(--Color);
+	position: relative;
+	border-radius: 0px 0px 3px 3px;
+	position: relative;
+}
+
+.icoMug::before{
+	content: "";
+	display: block;
+	width: 3px;
+	height: 5px;
+	border: solid 1px;
+	border-color: var(--Color);
+	float: right;
+	right: -5px;
+	top: 0px;
+	position: relative;
+	border-radius: 0px 3px 3px 0px;
+}
+
+.icoMug::after{
+	content: "";
+	display: block;
+	background: var(--Color);
+	width: 32px;
+	height: 1px;
+	position:relative;
+	margin: auto;
+	top: 18px;
+	left: -6px;
+}
+
+
+/* --- Undo--- */
+
+.icoUndo{
+	width: 20px;
+	height: 15px;
+	border-left: none;
+	border-top: solid 1px;
+	border-bottom: none;
+	border-right: solid 1px;
+	border-color: var(--Color);
+	border-radius: 0px 13px 0px 0px;
+	position: relative;
+	top: 6px;
+}
+
+
+.icoUndo::before{
+	content: "";
+	display: block;
+	width: 8px;
+	height: 8px;
+	border-left: solid 1px;
+	border-top: solid 1px;
+	border-bottom: none;
+	border-right: none;
+	border-color: var(--Color);
+	transform: rotate(-45deg);
+	position: relative;
+	top: -5px;
+	left: -6px;
+}
+
+
+/* --- Redo--- */
+
+
+.icoRedo{
+	width: 20px;
+	height: 15px;
+	border-left: solid 1px;
+	border-top: solid 1px;
+	border-bottom: none;
+	border-right: none;
+	border-color: var(--Color);
+	border-radius: 13px 0px 0px 0px;
+	position: relative;
+	top: 6px;
+}
+
+
+.icoRedo::before{
+	content: "";
+	display: block;
+	width: 8px;
+	height: 8px;
+	border-left:none;
+	border-top: solid 1px;
+	border-bottom: none;
+	border-right: solid 1px;
+	border-color: var(--Color);
+	transform: rotate(45deg);
+	position: relative;
+	float: right;
+	top: -5px;
+	right: 1px;
+}
+
+
+/* --- Laptod --- */
+
+.icoLaptod{
+	width: 25px;
+	height: 15px;
+	border:solid 1px;
+	border-color: var(--Color);
+	border-radius: 2px 2px 0px 0px;
+	position: relative;
+	top: 3px;
+}
+
+
+.icoLaptod::before{
+	width: 29px;
+	height: 2px;
+	border-radius: 0px 0px 2px 2px;
+	border:solid 1px;
+	border-color: var(--Color);
+	margin: auto;
+	position: relative;
+	left:-4px;
+	top: 13px;
+}
+
+
+/* --- add --- */
+
+
+.icoAdd{
+	width: 22px;
+	height: 22px;
+	border:solid 1px;
+	border-color: var(--Color);
+	border-radius: 1px;
+	position: relative;
+}
+
+
+.icoAdd::before{
+	width: 1px;
+	height: 11px;
+	background: var(--Color);
+	margin: auto;
+	position: relative;
+	top: 4px;
+}
+
+
+.icoAdd::after{
+	width: 1px;
+	height: 11px;
+	background: var(--Color);
+	margin: auto;
+	position: relative;
+	top: -7px;
+	transform: rotate(90deg);
+}
+
+
+/* --- Layers --- */
+
+
+.icoLayers{
+	width: 17px;
+	height: 18px;
+	border:solid 1px;
+	border-color: var(--Color);
+	border-radius: 1px;
+	position: relative;
+	transform: rotate(56deg) skewY(-22deg);
+}
+
+.icoLayers::before{
+	width: 17px;
+	height: 18px;
+	border-bottom:solid 1px;
+	border-right:solid 1px;
+	border-left:none;
+	border-top:none;
+	border-color: var(--Color);
+	border-radius: 1px;
+	left: 1px;
+	top: 1px;
+	position: relative;
+}
+
+
+.icoLayers::after{
+	width: 17px;
+	height: 18px;
+	border-bottom:solid 1px;
+	border-right:solid 1px;
+	border-left:none;
+	border-top:none;
+	border-color: var(--Color);
+	border-radius: 1px;
+	left:4px;
+	top: -15px;
+	position: relative;
+}
+
+
+/* -- Instagram--- */
+
+
+.icoInstagram{
+	width: 26px;
+	height: 26px;
+	border:solid 1px;
+	border-color: var(--Color);
+	border-radius: 6px;
+	position: relative;
+}
+
+.icoInstagram::before{
+	width: 2px;
+	height: 2px;
+	border-radius: 50%;
+	float: right;
+	border: solid 1px;
+	border-color: var(--Color);
+	top: 3px;
+	right: 3px;
+	position: relative;
+}
+
+
+.icoInstagram::after{
+	width: 9px;
+	height: 9px;
+	border-radius: 50%;
+	border: solid 1px;
+	border-color: var(--Color);
+	margin: auto;
+	top: 7px;
+	position: relative;
+}
+
+
+/* -- Check --- */
+
+.icoCheck{
+	width: 10px;
+	height: 25px;
+	border-top:solid none;
+	border-right: solid 1px;
+	border-bottom: solid 1px;
+	border-left: none;
+	border-color: var(--Color);
+	position: relative;
+	transform: rotate(45deg);
+}
+
+
+/* -- Sound--- */
+
+.icoSound{
+	width: 1px;
+	height: 22px;
+	background: var(--Color);
+	position: relative;
+}
+
+
+.icoSound::before{
+	margin: auto;
+	width: 11px;
+	height: 13px;
+	border-top:none;
+	border-right: solid 1px;
+	border-bottom: none;
+	border-left: solid 1px;
+	border-color: var(--Color);
+	position: relative;
+	left: -6px;
+	top: 5px;
+}
+
+
+.icoSound::after{
+	margin: auto;
+	width: 23px;
+	height: 25px;
+	border-top:none;
+	border-right: solid 1px;
+	border-bottom: none;
+	border-left: solid 1px;
+	border-color: var(--Color);
+	position: relative;
+	left: -12px;
+	top:-14px;
+}
+
+
+/* -- Stats --- */
+
+
+.icoStats{
+	width: 25px;
+	height: 20px;
+	border-top: none;
+	border-right: none;
+	border-bottom: solid 1px;
+	border-left: solid 1px;
+	border-color: var(--Color);
+	position: relative;
+}
+
+
+.icoStats::before{
+	width: 12px;
+	height: 5px;
+	border-top: none;
+	border-right: none;
+	border-bottom: solid 1px;
+	border-left: solid 1px;
+	border-color: var(--Color);
+	position: relative;
+	transform: rotate(135deg);
+	left: -5px;
+	top: 13px;
+}
+
+
+.icoStats::after{
+	width: 12px;
+	height: 0px;
+	border-top: none;
+	border-right: none;
+	border-bottom: solid 1px;
+	border-left: solid 1px;
+	border-color: var(--Color);
+	position: relative;
+	transform: rotate(135deg);
+	top: 3px;
+	left: 6px;
+}
+
+/* -- Eye --- */
+
+.icoEye{
+	width: 21px;
+	height: 21px;
+	border: solid 1px;
+	border-color: var(--Color);
+	position: relative;
+	transform: rotate(45deg);
+	overflow: hidden;
+	border-radius: 20px 0px 20px 0px;
+}
+
+.icoEye::before{
+	width: 11px;
+	height: 11px;
+	border: solid 2px;
+	border-color: var(--Color);
+	border-radius: 50%;
+	top: 2px;
+	position: relative;
+	margin: auto;
+}
+
+
+/* -- aligncenter --- */
+
+
+.icoAlignCenter{
+	width: 1px;
+	height: 22px;
+	background: var(--Color);
+	position: relative;
+	text-align: center;
+}
+
+.icoAlignCenter::before{
+	width: 9px;
+	height: 3px;
+	border: solid 1px;
+	border-color: var(--Color);
+	margin: 4px auto 2px;
+	position: relative;
+	left: -5px;
+}
+
+.icoAlignCenter::after{
+	width: 15px;
+	height: 3px;
+	border: solid 1px;
+	border-color: var(--Color);
+	margin: 3px auto;
+	position: relative;
+	left: -8px;
+}
+
+/* -- alignright--- */
+
+.icoAlignRight{
+	width: 1px;
+	height: 22px;
+	background: var(--Color);
+	text-align: center;
+	position: relative;
+	left: 7px;
+}
+
+.icoAlignRight::before{
+	width: 9px;
+	height: 3px;
+	border: solid 1px;
+	border-color: var(--Color);
+	margin: 4px auto 2px;
+	position: relative;
+	left: -14px;
+}
+
+.icoAlignRight::after{
+	width: 13px;
+	height: 3px;
+	border: solid 1px;
+	border-color: var(--Color);
+	margin: 3px auto;
+	position: relative;
+	left: -18px;
+}
+
+
+/* -- alignleft--- */
+
+.icoAlignLeft{
+	width: 1px;
+	height: 22px;
+	background: var(--Color);
+	text-align: center;
+	position: relative;
+	right: 7px;
+}
+
+.icoAlignLeft::before{
+	width: 9px;
+	height: 3px;
+	border: solid 1px;
+	border-color: var(--Color);
+	margin: 4px auto 2px;
+	position: relative;
+	right: -3px;
+}
+
+.icoAlignLeft::after{
+	width: 13px;
+	height: 3px;
+	border: solid 1px;
+	border-color: var(--Color);
+	margin: 3px auto;
+	position: relative;
+	right: -3px;
+}
+
+/* -- alignbottom --- */
+
+.icoAlignBottom{
+	width: 21px;
+	height: 1px;
+	background: var(--Color);
+	text-align: center;
+	position: relative;
+	padding-right: 3px;
+	top: 18px;
+}
+
+.icoAlignBottom::before{
+	width: 3px;
+	display: inline-block;
+	height: 10px;
+	border: solid 1px;
+	border-color: var(--Color);
+	margin: 4px auto 2px;
+	position: relative;
+	top: -24px;
+	right: -3px;
+}
+
+.icoAlignBottom::after{
+	width: 3px;
+	display: inline-block;
+	height: 16px;
+	border: solid 1px;
+	border-color: var(--Color);
+	margin: 3px 3px;
+	position: relative;
+	right: -3px;
+	top: -23px;
+}
+
+
+/* -- aligntop--- */
+
+.icoAlignTop{
+	width: 21px;
+	height: 1px;
+	background: var(--Color);
+	text-align: center;
+	position: relative;
+	padding-right: 3px;
+	top: -2px;
+}
+
+.icoAlignTop::before{
+	width: 3px;
+	display: inline-block;
+	height: 10px;
+	border: solid 1px;
+	border-color: var(--Color);
+	margin: 4px auto 2px;
+	position: relative;
+	top: -7px;
+	right: -3px;
+}
+
+.icoAlignTop::after{
+	width: 3px;
+	display: inline-block;
+	height: 16px;
+	border: solid 1px;
+	border-color: var(--Color);
+	margin: 3px 3px;
+	position: relative;
+	right: -3px;
+	top: 0px;
+}
+
+/* -- alignmiddle--- */
+
+.icoAlignMiddle{
+	width: 21px;
+	height: 1px;
+	background: var(--Color);
+	text-align: center;
+	position: relative;
+	padding-right: 3px;
+	top: 8px;
+}
+
+.icoAlignMiddle::before{
+	width: 3px;
+	display: inline-block;
+	height: 10px;
+	border: solid 1px;
+	border-color: var(--Color);
+	margin: 4px auto 2px;
+	position: relative;
+	top: -15px;
+	right: -3px;
+}
+
+.icoAlignMiddle::after{
+	width: 3px;
+	display: inline-block;
+	height: 16px;
+	border: solid 1px;
+	border-color: var(--Color);
+	margin: 3px 3px;
+	position: relative;
+	right: -3px;
+	top: -11px;
+}
+
+
+/* -- squares --- */
+
+.icoSquares{
+	width: 22px;
+	height: 22px;
+	border: solid 1px;
+	border-color: var(--Color);
+}
+
+.icoSquares::before{
+	width: 12px;
+	height:12px;
+	border: solid 1px;
+	border-color: var(--Color);
+	position: relative;
+	float: left;
+	top: -1px;
+	left: -1px;
+}
+
+
+.icoSquares::after{
+	width: 12px;
+	height: 12px;
+	border: solid 1px;
+	border-color: var(--Color);
+	position: relative;
+	top: -7px;
+	right: -1px;
+	float: right;
+}
+
+/* -- points --- */
+
+
+.icoPoints{
+	width: 5px;
+	height: 5px;
+	border: solid 1px;
+	border-color: var(--Color);
+	border-radius: 50%;
+}
+
+.icoPoints::before, .icoPoints::after{
+	box-sizing: border-box;
+	width: 5px;
+	height: 5px;
+	border: solid 1px;
+	border-color: var(--Color);
+	border-radius: 50%;
+	position: relative;
+}
+
+.icoPoints::before{
+	float: left;
+	left: -10px;
+	top: -1px;
+}
+
+.icoPoints::after{
+	float: right;
+	right: -10px;
+	top: -6px;
+}
+
+
+/* -- glyph --- */
+
+
+.icoGlyph{
+	width: 5px;
+	height: 13px;
+	border-style: solid;
+	border-width: 0px 1px 0px 1px;
+	border-color: var(--Color);
+}
+
+
+.icoGlyph::before{
+	height: 1px;
+	width: 13px;
+	margin: auto;
+	background: var(--Color);
+	position: relative;
+	left:-5px;
+}
+
+
+.icoGlyph::after{
+	width: 5px;
+	height: 5px;
+	border-style: solid;
+	border-width: 1px 0px 1px 1px;
+	border-color: var(--Color);
+	border-radius: 5px 0px 0px 5px;
+	position: relative;
+	left: -7px;
+	top: -1px;
+}
+
+/* -- Cut --- */
+
+
+.icoCut{
+	width: 21px;
+	height: 1px;
+	border-style: dotted;
+	border-width: 0px 0px 1px 0px;
+	border-color: var(--Color);
+}
+
+.icoCut::before, .icoCut::after{
+	position: relative;
+	width: 9px;
+	height: 7px;
+	border-style: solid;
+	margin: auto;
+	border-color: var(--Color);
+}
+
+.icoCut::before{
+	border-width: 0px 1px 1px 1px;
+	top: -10px;
+}
+
+.icoCut::after{
+	border-width: 1px 1px 0px 1px;
+	top: -5px;
+}
+
+
+/* -- text left --- */
+
+.icoTextLeft{
+	width: 14px;
+	height: 7px;
+	border-left: none;
+	border-right: none;
+	border-top: solid 1px;
+	border-bottom: solid 1px;
+	border-color: var(--Color);
+}
+
+
+.icoTextLeft::before{
+	width: 18px;
+	height: 5px;
+	border-left: none;
+	border-right: none;
+	border-top: solid 1px;
+	border-bottom: solid 1px;
+	border-color: var(--Color);
+	top: 2px;
+}
+
+
+/* -- text center --- */
+
+.icoTextCenter{
+	width: 14px;
+	height: 7px;
+	border-left: none;
+	border-right: none;
+	border-top: solid 1px;
+	border-bottom: solid 1px;
+	border-color: var(--Color);
+}
+
+
+.icoTextCenter::before{
+	width: 19px;
+	height: 5px;
+	border-left: none;
+	border-right: none;
+	border-top: solid 1px;
+	border-bottom: solid 1px;
+	border-color: var(--Color);
+	left: -2px;
+	top: 2px;
+}
+
+
+/* -- text right --- */
+
+.icoTextRight{
+	width: 14px;
+	height: 7px;
+	border-left: none;
+	border-right: none;
+	border-top: solid 1px;
+	border-bottom: solid 1px;
+	border-color: var(--Color);
+}
+
+
+.icoTextRight::before{
+	width: 19px;
+	height: 5px;
+	border-left: none;
+	border-right: none;
+	border-top: solid 1px;
+	border-bottom: solid 1px;
+	border-color: var(--Color);
+	float: right;
+	top: 2px;
+}
+
+
+/* -- text justify --- */
+
+
+.icoTextJustify{
+	width: 19px;
+	height: 7px;
+	border-left: none;
+	border-right: none;
+	border-top: solid 1px;
+	border-bottom: solid 1px;
+	border-color: var(--Color);
+}
+
+
+.icoTextJustify::before{
+	width: 19px;
+	height: 5px;
+	border-left: none;
+	border-right: none;
+	border-top: solid 1px;
+	border-bottom: solid 1px;
+	border-color: var(--Color);
+	float: right;
+	top: 2px;
+}
+
+
+/* -- text circles --- */
+
+
+.icoCircles{
+	width: 24px;
+	height: 24px;
+	border-radius: 50%;
+	border: double;
+	border-color: var(--Color);
+}
+
+
+.icoCircles::before{
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	border: double;
+	border-color: var(--Color);
+	margin: auto;
+	top: 1px;
+}
+
+
+
+/* -- Wifi --- */
+
+
+.icoWifi{
+	width: 20px;
+	height: 20px;
+	overflow:hidden;
+	transform: rotate(45deg);
+	top: -8px;
+}
+
+.icoWifi::before{
+	width: 24px;
+	height: 24px;
+	border: solid 2px;
+	border-radius: 50%;
+	border-color: var(--Color);
+	top: 4px;
+	left: 4px;
+}
+
+
+.icoWifi::after{
+	content: "·";
+	font-size: 47px;
+	color: var(--Color);
+	line-height: 14px;
+	width: 14px;
+	height: 14px;
+	border: solid 2px;
+	margin: auto;
+	border-radius: 50%;
+	border-color: var(--Color);
+	top: -18px;
+	right: -9px;
+}
+
+
+/* -- bell --- */
+
+
+.icoBell{
+	width: 11px;
+	height: 13px;
+	border:solid 1px;
+	border-radius: 9px 9px 0px 0px;
+	border-color: var(--Color);
+}
+
+
+.icoBell::before{
+	width: 15px;
+	height: 2px;
+	border:solid 1px;
+	top: 11px;
+	left: -4px;
+	border-color: var(--Color);
+}
+
+
+.icoBell::after{
+	width: 4px;
+	height: 3px;
+	border:solid 1px;
+	top: 11px;
+	margin: -1px auto;
+	border-radius: 0px 0px 2px 2px;
+	border-color: var(--Color);
+	left: 0px;
+}
+
+
+/* -- glasses --- */
+
+.icoGlasses{
+	width: 5px;
+	height: 1px;
+	border-top: solid 1px;
+	border-color: var(--Color);
+}
+
+.icoGlasses::before{
+	width: 10px;
+	height: 9px;
+	border: solid 1px;
+	border-top: solid 3px;
+	border-color: var(--Color);
+	left: -12px;
+	top: -6px;
+	border-radius: 2px 2px 4px 4px;
+
+}
+.icoGlasses::after{
+	width: 10px;
+	height: 9px;
+	border: solid 1px;
+	border-top: solid 3px;
+	border-color: var(--Color);
+	right: -12px;
+	top: -19px;
+	float: right;
+	border-radius: 2px 2px 4px 4px;
+
+}
+
+/* -- Music --- */
+
+
+.icoMusic{
+	width: 15px;
+	height: 13px;
+	border-top: double 4px;
+	border-left: solid 1px;
+	border-right: solid 1px;
+	border-bottom: none;
+	border-color: var(--Color);
+	transform: skewY(-12deg);
+}
+
+.icoMusic::before, .icoMusic::after{
+	width: 5px;
+	height: 5px;
+	border: solid 1px;
+	border-radius: 50%;
+	border-color: var(--Color);
+}
+
+.icoMusic::before{
+	top: 8px;
+	left: -8px;
+}
+
+.icoMusic::after{
+	float: right;
+	top: -1px;
+	right: -1px;
+}
+
+
+/* -- Cube --- */
+
+
+.icoCilindric{
+	width:17px;
+	height: 20px;
+	border-left: solid 1px;
+	border-right: solid 1px;
+	border-bottom: none;
+	border-top: none;
+	border-color: var(--Color);
+}
+
+.icoCilindric::before{
+	background: transparent;
+	width: 15px;
+	height: 7px;
+	border: solid 1px;
+	border-radius: 50%;
+	top: -5px;
+	left: -1px;
+	border-color: var(--Color);
+	box-shadow: 0px 21px 0px var(--Color);
+}
+
+
+/* -- Cube --- */
+
+.icoCube{
+	width:15px;
+	height: 15px;
+	border: solid 1px;
+	border-radius: 1px;
+	border-color: var(--Color);
+}
+
+.icoCube::before{
+	width: 13px;
+	height: 9px;
+	border: solid 1px;
+	border-radius: 1px;
+	border-color: var(--Color);
+	transform: skewX(30deg);
+	top: 13px;
+	left: 2px;
+}
+
+
+.icoCube::after{
+	box-sizing: border-box;
+	background: transparent;
+	width: 7px;
+	height: 15px;
+	background: var(--Color);
+	border-radius: 2px;
+	transform: skewY(60deg);
+	left: 10px;
+	top: -7px;
+}
+
+/* -- Paperplane --- */
+
+
+.icoPaperplane{
+	width:1px;
+	height: 17px;
+	border-left: solid 1px;
+	border-color: var(--Color);
+	transform: rotate(48deg);
+	left: 5px;
+}
+
+.icoPaperplane::before{
+	width:10px;
+	height: 13px;
+	border-top: none;
+	border-left: solid 1px;
+	border-right: none;
+	border-bottom: solid 1px;
+	border-color: var(--Color);
+	left: -6px;
+	top: 2px;
+	transform: rotate(-41deg) skewX(-58deg);
+}
+
+
+.icoPaperplane::after{
+	width:10px;
+	height: 13px;
+	border-top: none;
+	border-left: none;
+	border-right: solid 1px;
+	border-bottom: solid 1px;
+	border-color: var(--Color);
+	left: -6px;
+	top: -12px;
+	transform: rotate(41deg) skewX(58deg);
+}
+
+
+/* -- Turnoff --- */
+
+.icoTurnoff{
+	width:17px;
+	height: 17px;
+	border:solid 1px;
+	border-radius: 50%;
+	border-color: var(--Color);
+}
+
+.icoTurnoff::before{
+	width: 1px;
+	height: 12px;
+	border-left:solid 1px;
+	border-color: var(--Color);
+	margin: auto;
+	left:0px;
+	top: -5px;
+}
+
+
+/* -- Football --- */
+
+.icoFootball{
+	width:21px;
+	height: 21px;
+	border:solid 1px;
+	border-radius: 19px 0px 19px 0px;
+	border-color: var(--Color);
+}
+
+.icoFootball::before{
+	width:1px;
+	height:28px;
+	border-left:solid 1px;
+	transform: rotate(45deg);
+	left: 1px;
+	top: -4px;
+	border-color: var(--Color);
+}
+
+.icoFootball::after{
+	border-top: double;
+	border-bottom: double;
+	border-left: none;
+	border-right: none;
+	width: 6px;
+	height: 3px;
+	border-color: var(--Color);
+	transform: rotate(45deg);
+	left: 1px;
+	top: -23px;
+}
+
+
+/* -- Tennis --- */
+
+
+.icoTennis{
+	width:17px;
+	height: 17px;
+	border:solid 1px;
+	border-radius: 50%;
+	border-color: var(--Color);
+	overflow: hidden;
+}
+
+.icoTennis::before{
+	width:9px;
+	height: 9px;
+	border:dashed 1px;
+	border-radius: 50%;
+	border-color: var(--Color);
+	left: -8px;
+	top: 2px;
+}
+
+
+.icoTennis::after{
+	width:9px;
+	height: 9px;
+	border:dashed 1px;
+	border-radius: 50%;
+	border-color: var(--Color);
+	right: -7px;
+	top: -9px;
+}
+
+
+/* -- Wine --- */
+
+
+.icoWine{
+	width:13px;
+	height: 17px;
+	border:solid 1px;
+	border-radius: 0px 0px 13px 13px;
+	border-color: var(--Color);
+	top: -3px;
+}
+
+
+.icoWine::before{
+	width:1px;
+	height: 9px;
+	border-left:solid 1px;
+	margin: auto;
+	border-color: var(--Color);
+	top: 16px;
+	left: 1px;
+}
+
+
+.icoWine::after{
+	width:9px;
+	height: 1px;
+	border:solid 1px;
+	margin: auto;
+	border-color: var(--Color);
+	top: 15px;
+	border-radius: 4px 4px 0px 0px
+
+}
+
+
+/* -- Underline --- */
+
+
+.icoUnderline{
+	width:11px;
+	height: 17px;
+	border-top:none;
+	border-left:solid 1px;
+	border-right: solid 1px;
+	border-bottom: solid 1px;
+	border-radius: 0px 0px 13px 13px;
+	border-color: var(--Color);
+	top: -3px;
+}
+
+.icoUnderline::before{
+	width:9px;
+	height: 1px;
+	border-bottom: solid 1px;
+	top: 19px;
+	margin: auto;
+	border-color: var(--Color);
+}
+
+/* -- Italic --- */
+
+.icoItalic{
+	width:1px;
+	height: 17px;
+	border-left: solid 1px;
+	border-color: var(--Color);
+	transform: skewX(-15deg);
+}
+
+
+.icoItalic::before{
+	width:12px;
+	height: 16px;
+	border-top: solid 1px;
+	border-bottom: solid 1px;
+	border-left: none;
+	border-right: none;
+	left: -6px;
+	border-color: var(--Color);
+}
+
+
+/* -- Microphone--- */
+
+
+.icoMicrophone{
+	width:9px;
+	height: 17px;
+	border: solid 1px;
+	border-radius: 9px;
+	border-color: var(--Color);
+}
+
+.icoMicrophone::before{
+	width:15px;
+	height: 9px;
+	border-top: none;
+	border-left: solid 1px;
+	border-right:  solid 1px;
+	border-bottom:  solid 1px;
+	border-radius: 0px 0px 12px 12px;
+	border-color: var(--Color);
+	top: 10px;
+	left: -5px;
+}
+
+.icoMicrophone::after{
+	width: 1px;
+	height: 8px;
+	border-left: solid 1px;
+	border-color: var(--Color);
+	margin: auto;
+	left: 0px;
+	top: 9px;
+}
+
+
+/* -- Ese --- */
+
+.icoEse{
+	width:7px;
+	height: 13px;
+	border-top: none;
+	border-left: solid 1px;
+	border-right:  solid 1px;
+	border-bottom:  solid 1px;
+	border-radius: 0px 0px 9px 9px;
+	border-color: var(--Color);
+	top: 7px;
+	left: -5px;
+}
+
+
+.icoEse::before{
+	width:5px;
+	height: 13px;
+	border-top: solid 1px;
+	border-left: solid 1px;
+	border-right:  solid 1px;
+	border-bottom:  none;
+	border-radius: 9px 9px 0px 0px;
+	border-color: var(--Color);
+	left: 5px;
+	top: -7px;
+}
+
+.icoEse::after{
+	content: "· ·";
+	font-size: 18px;
+	color: var(--Color);
+	letter-spacing: -12px;
+	float: right;
+	transform: rotate(25deg);
+	top: -20px;
+	left: 5px;
+}
+
+
+/* -- percent --- */
+
+.icoPercent{
+	width:1px;
+	height: 22px;
+	border-left: solid 1px;
+	border-color: var(--Color);
+	transform: rotate(45deg);
+}
+
+
+.icoPercent::before, .icoPercent::after{
+	display: inline-block;
+	width:4px;
+	height: 4px;
+	border-radius: 50%;
+	border: solid 1px;
+	border-color: var(--Color);
+}
+
+.icoPercent::before{
+	float: left;
+	left: 4px;
+	top: 2px;
+
+}
+
+
+.icoPercent::after{
+	float: right;
+	top: 8px;
+	right: 5px;
+}
+
+
+/* -- ruler --- */
+
+
+.icoRuler{
+	width:32px;
+	height: 10px;
+	border:solid 1px;
+	border-color: var(--Color);
+	transform: rotate(-40deg);
+}
+
+
+.icoRuler::before, .icoRuler::after{
+	border-left:solid 1px;
+	border-right:solid 1px;
+	border-bottom: none;
+	border-top: none;
+	border-color: var(--Color);
+}
+
+.icoRuler::before{
+	width: 13px;
+	height: 5px;
+	left: 4px;
+	margin: auto;
+}
+
+
+.icoRuler::after{
+	width: 12px;
+	height: 3px;
+	margin: auto;
+	left: -3px;
+	top: -5px;
+}
+
+
+/* --- ZoomIn--- */
+
+.icoZoomIn{
+	width: 17px;
+	height: 17px;
+	border:solid 1px;
+	margin: -2px 0px 0px 9px;
+	border-color: var(--Color);
+	border-radius: 50%;
+}
+
+.icoZoomIn::before{
+	width: 2px;
+	height: 14px;
+	background: var(--Color);
+	transform: rotate(45deg);
+	position: relative;
+	top: 10px;
+	left: -11px;
+}
+
+.icoZoomIn::after{
+	content: "+";
+	color: var(--Color);
+	font-size: 9px;
+	top: -12px;
+	float: left;
+	left:5px;
+}
+
+
+/* --- ZoomOut--- */
+
+.icoZoomOut{
+	width: 17px;
+	height: 17px;
+	border:solid 1px;
+	margin: -2px 0px 0px 9px;
+	border-color: var(--Color);
+	border-radius: 50%;
+}
+
+.icoZoomOut::before{
+	width: 2px;
+	height: 14px;
+	background: var(--Color);
+	transform: rotate(45deg);
+	position: relative;
+	top: 10px;
+	left: -11px;
+}
+
+.icoZoomOut::after{
+	content: "-";
+	color: var(--Color);
+	font-size: 12px;
+	float: left;
+	left: 6px;
+	top: -14px;
+}
+
+
+/* --- Warning --- */
+
+.icoWarning{
+	width: 22px;
+	height: 22px;
+	border:solid 1px;
+	border-color: var(--Color);
+	border-radius: 50%;
+}
+
+
+.icoWarning::before{
+	width: 2px;
+	height: 6px;
+	background: var(--Color);
+	margin: auto;
+	top: 5px;
+}
+
+.icoWarning::after{
+	width: 2px;
+	height: 2px;
+	background: var(--Color);
+	margin: auto;
+	top: 8px;
+}
+
+/* --- Info --- */
+
+.icoInfo{
+	width: 22px;
+	height: 22px;
+	border:solid 1px;
+	border-color: var(--Color);
+	border-radius: 50%;
+}
+
+.icoInfo::before{
+	width: 2px;
+	height: 2px;
+	background: var(--Color);
+	margin: auto;
+	top: 6px;
+}
+
+.icoInfo::after{
+	width: 2px;
+	height: 6px;
+	background: var(--Color);
+	margin: auto;
+	top: 9px;
+}
+
+
+/* --- Telephone --- */
+
+.icoTelephone{
+	width: 7px;
+	height: 24px;
+	border:solid 4px;
+	border-color: var(--Color);
+	border-radius: 13px 0px 0px 13px;
+	border-right: none;
+	transform: rotate(-45deg);
+}
+
+.icoTelephone::before{
+	width: 2px;
+	height: 4px;
+	background: var(--Color);
+	right: -4px;
+	top:-4px;
+}
+
+.icoTelephone::after{
+	width: 2px;
+	height: 4px;
+	background: var(--Color);
+	right: -4px;
+	bottom:-12px;
+}
+
+
+/* --- Knife --- */
+
+.icoKnife{
+	width: 6px;
+	height: 17px;
+	border:solid 1px;
+	border-color: var(--Color);
+	border-radius: 0px 0px 13px 0px;
+	transform: rotate(45deg);
+}
+
+.icoKnife::before{
+	width: 2px;
+	height: 8px;
+	border:solid 1px;
+	border-color: var(--Color);
+	top:-10px;
+	left: -1px;
+}
+
+
+/* --- Dropper --- */
+
+.icoDropper{
+	width: 13px;
+	height: 5px;
+	border:solid 1px;
+	border-color: var(--Color);
+	transform: rotate(38deg);
+	top:4px;
+}
+
+.icoDropper::before{
+	width: 5px;
+	height: 6px;
+	border:solid 1px;
+	border-color: var(--Color);
+	border-radius: 3px 3px 0px 0px;
+	margin: auto;
+	top:-9px;
+}
+
+.icoDropper::after{
+	content: ".";
+	color: var(--Color);
+	line-height: 32px;
+	width: 3px;
+	height: 15px;
+	border:solid 1px;
+	border-color: var(--Color);
+	border-radius: 0px 0px 3px 3px;
+	margin: auto;
+	top:-4px;
+}
+
+
+/* --- Degrees --- */
+
+.icoDegrees{
+	width: 21px;
+	height: 21px;
+	border:solid 1px;
+	border-color: var(--Color);
+	border-top: none;
+	border-right: none;
+	top:4px;
+	overflow: hidden;
+	transform: skewX(-45deg);
+}
+
+.icoDegrees::before{
+	width: 13px;
+	height: 13px;
+	background: var(--Color);
+	border-radius: 50%;
+	top:13px;
+	left: -5px;
+	transform: skewX(45deg);
+}
+
+.icoDegrees::after{
+	color: var(--Color);
+	top:-3px;
+	font-size: 7px;
+	transform: skewX(45deg);
+}
+
+/* --- Forbiden --- */
+
+.icoForbiden{
+	width: 17px;
+	height: 17px;
+	border: solid 1px;
+	border-color: var(--Color);
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+.icoForbiden::before{
+	height: 28px;
+	width: 1px;
+	background: var(--Color);
+	margin: auto;
+	transform: rotate(-45deg);
+	right: -3px;
+	top: -4px;
+}
+
+/* --- Brush --- */
+
+.icoBrush{
+	width: 6px;
+	height: 4px;
+	border: solid 1px;
+	border-color: var(--Color);
+	transform: rotate(45deg);
+}
+
+.icoBrush::before{
+	width: 4px;
+	height: 15px;
+	border: solid 1px;
+	border-color: var(--Color);
+	top:-20px;
+	left: -1px;
+	border-radius: 4px 4px 0px 0px;
+}
+
+.icoBrush::after{
+	width: 8px;
+	height: 8px;
+	border: solid 1px;
+	border-color: var(--Color);
+	top:-13px;
+	left: -3px;
+	transform: rotate(-135deg);
+	border-radius: 0px 4px 4px 4px;
+}
+
+/* --- FontSize --- */
+
+.icoFontSize{
+	width: 1px;
+	height: 14px;
+	background: var(--Color);
+	left: 9px;
+}
+
+.icoFontSize::before{
+	content: "A";
+	color: var(--Color);
+	font-family: Georgia;
+	font-size: 24px;
+	left: -21px;
+	top:-8px;
+}
+
+.icoFontSize::after{
+	width: 6px;
+	height: 6px;
+	border: solid 1px;
+	border-color: var(--Color);
+	border-bottom: none;
+	border-left: none;
+	top: -27px;
+	transform: rotate(-45deg);
+	left: -3px;
+}
+
+
+/* --- Color --- */
+
+.icoColor{
+	width: 17px;
+	height: 20px;
+	border: solid 1px;
+	border-color: var(--Color);
+	border-radius: 0px 0px 4px 4px;
+	transform: rotate(45deg);
+}
+
+.icoColor::after{
+	width: 4px;
+	height: 4px;
+	background: var(--Color);
+	float: right;
+	right: -10px;
+	top: -4px;
+	border-radius: 0px 4px 4px 4px;
+	transform: rotate(-5deg);
+}
+
+.icoColor::before{
+	width: 10px;
+	height: 5px;
+	border: solid 1px;
+	border-right: none;
+	border-color: var(--Color);
+	left: -9px;
+	top: -1px;
+	border-radius: 4px 0px 0px 4px;
+}
+
+/* --- Gradient --- */
+
+.icoGradient{
+	background: linear-gradient(to left, rgba(0, 0, 0, 0), var(--Color));
+	width: 27px;
+	height: 15px;
+	border: solid 1px;
+	border-color: var(--Color);
+}
+
+
+/* --- Notifications --- */
+
+.icoNotifications{
+	width: 17px;
+	height: 17px;
+	border: solid 1px;
+	border-color: var(--Color);
+	border-radius: 4px;
+}
+
+.icoNotifications::before{
+	width: 8px;
+	height: 8px;
+	background: var(--Color);
+	border-radius: 50%;
+	float: right;
+	right: -4px;
+	top: -2px;
+}
+
+/* --- SwitchOn --- */
+
+.icoSwitchOn{
+	width: 29px;
+	height: 15px;
+	border: solid 1px;
+	border-color: var(--Color);
+	border-radius: 8px;
+}
+
+.icoSwitchOn::before{
+	width: 11px;
+	height: 11px;
+	border-radius: 50%;
+	background: var(--Color);
+	top:1px;
+	float: left;
+	left: 1px;
+}
+
+
+/* --- SwitchOff --- */
+
+.icoSwitchOff{
+	width: 29px;
+	height: 15px;
+	border: solid 1px;
+	border-color: var(--Color);
+	border-radius: 8px;
+}
+
+.icoSwitchOff::before{
+	width: 11px;
+	height: 11px;
+	border-radius: 50%;
+	background: var(--Color);
+	float: right;
+	top:1px;
+	right: 1px;
+}
+
+/* --- SmileFace --- */
+
+.icoSmileFace{
+	width: 24px;
+	height: 24px;
+	border: solid 1px;
+	border-color: var(--Color);
+	border-radius: 50%;
+}
+
+.icoSmileFace::before{
+	width: 10px;
+	height: 3px;
+	border: solid 1px;
+	border-color: var(--Color);
+	border-radius: 0px 0px 10px 10px;
+	border-top: none;
+	margin: auto;
+	top: 14px;
+}
+
+.icoSmileFace::after{
+	content: ". .";
+	font-size: 13px;
+	letter-spacing: -1px;
+	color: var(--Color);
+	top: -7px;
+	left: 6px;
+	margin: auto;
+}
+
+/* --- SadFace --- */
+
+.icoSadFace{
+	width: 24px;
+	height: 24px;
+	border: solid 1px;
+	border-color: var(--Color);
+	border-radius: 50%;
+}
+
+.icoSadFace::before{
+	width: 10px;
+	height: 3px;
+	border: solid 1px;
+	border-color: var(--Color);
+	border-radius: 10px 10px 0px 0px;
+	border-bottom: none;
+	margin: auto;
+	top: 13px;
+}
+
+.icoSadFace::after{
+	content: ". .";
+	font-size: 13px;
+	letter-spacing: -1px;
+	color: var(--Color);
+	top: -7px;
+	left: 6px;
+	margin: auto;
+}
+
+/* --- BigSmile --- */
+
+.icoBigSmile{
+	width: 24px;
+	height: 24px;
+	border: solid 1px;
+	border-color: var(--Color);
+	border-radius: 50%;
+}
+
+.icoBigSmile::before{
+	width: 10px;
+	height: 3px;
+	border: solid 1px;
+	border-color: var(--Color);
+	border-radius: 0px 0px 10px 10px;
+	margin: auto;
+	top: 13px;
+}
+
+.icoBigSmile::after{
+	content: ". .";
+	font-size: 13px;
+	letter-spacing: -1px;
+	color: var(--Color);
+	top: -7px;
+	left: 6px;
+	margin: auto;
+}
+
+
+/* --- NoWords --- */
+
+.icoNoWords{
+	width: 24px;
+	height: 24px;
+	border: solid 1px;
+	border-color: var(--Color);
+	border-radius: 50%;
+}
+
+.icoNoWords::before{
+	width: 10px;
+	height: 1px;
+	background: var(--Color);
+	margin: auto;
+	top: 14px;
+}
+
+.icoNoWords::after{
+	content: ". .";
+	font-size: 13px;
+	letter-spacing: -1px;
+	color: var(--Color);
+	top: -4px;
+	left: 6px;
+	margin: auto;
+}
+
+/* --- Blink --- */
+
+.icoBlink{
+	width: 24px;
+	height: 24px;
+	border: solid 1px;
+	border-color: var(--Color);
+	border-radius: 50%;
+}
+
+.icoBlink::before{
+	width: 10px;
+	height: 2px;
+	border: solid 1px;
+	border-color: var(--Color);
+	border-radius: 0px 0px 10px 10px;
+	border-top: none;
+	margin: auto;
+	top: 14px;
+}
+
+.icoBlink::after{
+	content: "· -";
+	font-size: 13px;
+	letter-spacing: 0px;
+	color: var(--Color);
+	top: -3px;
+	left: 5px;
+	margin: auto;
+}
+
+
+/* --- Coin --- */
+
+.icoCoin{
+	width: 25px;
+	height: 25px;
+	border: solid 1px;
+	border-color: var(--Color);
+	border-radius: 50%;
+}
+
+.icoCoin::before{
+	content: "$";
+	font-size: 13px;
+	letter-spacing: 0px;
+	color: var(--Color);
+	top: 4px;
+	left: 8px;
+	margin: auto;
+}
+
+/* --- Dollar --- */
+
+.icoDollar{
+	width: 27px;
+	height: 15px;
+	border: solid 1px;
+	border-color: var(--Color);
+	overflow: hidden;
+}
+
+.icoDollar::before{
+	content: "$";
+	font-size: 10px;
+	line-height: 14px;
+	color: black;
+	width: 9px;
+	height: 15px;
+	margin: auto;
+	border-radius: 50%;
+	padding-left: 4px;
+	border: solid 1px;
+	border-color: var(--Color);
+	top: -2px;
+}
+
+
+/* --- Spoon --- */
+
+.icoSpoon{
+	width: 11px;
+	height: 15px;
+	border: solid 1px;
+	border-bottom: solid 3px;
+	border-color: var(--Color);
+	border-radius: 70% 70% 55% 55%;
+	transform: rotate(45deg);
+	top: -5px;
+}
+
+.icoSpoon::before{
+	width: 1px;
+	height: 15px;
+	border: solid 1px;
+	border-color: var(--Color);
+	border-radius: 0px 0px 5px 5px;
+	margin: auto;
+	top:13px;
+}
+
+/* --- Fork --- */
+
+.icoFork{
+	width: 10px;
+	height:12px;
+	border: solid 1px;
+	border-bottom: solid 3px;
+	border-color: var(--Color);
+	border-radius: 0px 0px 2px 2px;
+	border-top: none;
+	transform: rotate(45deg);
+}
+
+.icoFork::before{
+	width: 2px;
+	height:11px;
+	border: solid 1px;
+	border-color: var(--Color);
+	border-top: none;
+	top: 0px;
+	margin: auto
+}
+
+.icoFork::after{
+	width: 1px;
+	height: 16px;
+	border: solid 1px;
+	border-color: var(--Color);
+	border-radius: 0px 0px 5px 5px;
+	margin: auto;
+	top:-1px;
+}
+
+/* --- Bottle --- */
+
+.icoBottle{
+	width: 13px;
+	height:14px;
+	border: solid 1px;
+	border-bottom: solid 4px;
+	border-color: var(--Color);
+	border-radius: 0px 0px 2px 2px;
+}
+
+.icoBottle::before{
+	width: 1px;
+	background: var(--Color);
+	height: 7px;
+	margin: auto;
+	top: 12px;
+}
+
+.icoBottle::after{
+	width: 9px;
+	height: 1px;
+	border: solid 1px;
+	border-color: var(--Color);
+	border-radius: 50% 50% 0px 0px;
+	margin: auto;
+	top: 11px;
+	left: 0px;
+}
+
+
+/* --- Bag --- */
+
+.icoBag{
+	width: 17px;
+	height:18px;
+	border: solid 1px;
+	border-color: var(--Color);
+	border-radius: 0px 0px 2px 2px;
+}
+
+.icoBag::before{
+	width: 5px;
+	height: 10px;
+	border-radius: 4px 4px 0px 0px;
+	border: solid 1px;
+	border-color: var(--Color);
+	border-bottom: none;
+	margin: auto;
+	top: -7px;
+}

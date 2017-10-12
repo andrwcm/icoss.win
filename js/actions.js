@@ -16,6 +16,6 @@
 
     //acciones precarga
     $(window).load(function() {
-          $("#preloader").delay(3900).fadeOut("slow", function(){
+          $("#preloader").delay(2900).fadeOut("slow", function(){
        });
     })
