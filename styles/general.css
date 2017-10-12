@@ -6,6 +6,15 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:300,400,500');
 
 
+@font-face {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+@font-face {
+    font-family: 'Source Code Pro', monospace;
+}
+
 body{
 	background: #272829;
 	overflow-x: hidden;
