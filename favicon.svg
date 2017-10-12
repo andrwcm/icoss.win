@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="2557 68 50 50">
+  <defs>
+    <style>
+      .cls-1, .cls-3 {
+        fill: none;
+      }
+
+      .cls-1 {
+        stroke: #1e2022;
+        stroke-width: 3px;
+      }
+
+      .cls-2 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="Group_59" data-name="Group 59" transform="translate(2038)">
+    <g id="Rectangle_123" data-name="Rectangle 123" class="cls-1" transform="translate(519 68)">
+      <rect class="cls-2" width="50" height="50"/>
+      <rect class="cls-3" x="1.5" y="1.5" width="47" height="47"/>
+    </g>
+    <g id="Rectangle_124" data-name="Rectangle 124" class="cls-1" transform="translate(519 68)">
+      <rect class="cls-2" width="31.707" height="31.707"/>
+      <rect class="cls-3" x="1.5" y="1.5" width="28.707" height="28.707"/>
+    </g>
+    <g id="Rectangle_125" data-name="Rectangle 125" class="cls-1" transform="translate(537.293 86.293)">
+      <rect class="cls-2" width="31.707" height="31.707"/>
+      <rect class="cls-3" x="1.5" y="1.5" width="28.707" height="28.707"/>
+    </g>
+  </g>
+</svg>
