@@ -238,7 +238,7 @@ section#description h2{
 section#description a{
 	font-family: 'Poppins', sans-serif;
 	display: block;
-	color: #6F6F6F;
+	color: #adadad;
 	font-size: 17px;
 	position: relative;
 	margin: 45px auto 0px;
@@ -257,7 +257,7 @@ section#description .icossTest{
 	display: inline-block;
 	float: right;
 	text-align: right;
-	top: -130px;
+	top: -190px;
 	position: relative;
 }
 
@@ -277,10 +277,10 @@ section#description .icossTest span{
 }
 
 section#description .icossTest span a.btnSecundary{
-  font-size: 14px;
+  font-size: 13px;
   position: relative;
-  top: -100px;
-  width: 180px;
+  top: -85px;
+  width: 190px;
 }
 
 section#description .icossTest span i{
@@ -388,7 +388,7 @@ section#howTo .instruction p.textInstruction{
 	color: #EAEAEA;
 	font-size: 17px;
 	font-weight: 200;
-	isplay: inline-block;
+	display: inline-block;
 	display: block;
 	width: 400px;
 }
