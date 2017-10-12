@@ -84,7 +84,7 @@ header a.made{
 header a.made b{
   display: inline-block;
   color: var(--Orange);
-  opacity: .2;
+  opacity: .5;
   transition: .5s;
 }
 
