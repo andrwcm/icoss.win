@@ -12,3 +12,10 @@
         $( "header h1 span.logo div.letterO" ).removeClass( "rotate" );
       }
     );
+
+
+    //acciones precarga
+    $(window).load(function() {
+          $("#preloader").delay(3900).fadeOut("slow", function(){
+       });
+    })
