@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="2947 1084 504 18">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #96cbf7;
+        font-size: 14px;
+        font-family: SourceCodePro-Medium, Source Code Pro;
+        font-weight: 500;
+      }
+
+      .cls-2 {
+        fill: #a8ff60;
+      }
+
+      .cls-3 {
+        fill: #c6c5fe;
+      }
+    </style>
+  </defs>
+  <text id="_div_class_iconSize_xxl_i_class_ico_icoPhone_i_div_" data-name="&lt;div class=“iconSize xxl”&gt;&lt;i class=“ico icoPhone”&gt;&lt;/i&gt;&lt;/div&gt;" class="cls-1" transform="translate(2947 1098)"><tspan x="0" y="0">&lt;div class=“</tspan><tspan class="cls-2" y="0">iconSize xxl</tspan><tspan y="0">”&gt;&lt;i class</tspan><tspan class="cls-3" y="0">=</tspan><tspan class="cls-2" y="0">“ico icoPhone”</tspan><tspan y="0">&gt;&lt;/i&gt;&lt;/div&gt;</tspan></text>
+</svg>

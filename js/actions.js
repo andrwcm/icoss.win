@@ -1,13 +1,9 @@
 
-    $('.ico').click(function(){
-        $(this).removeClass("icoLock"),
-        $(this).addClass("icoColor");
+    $('.icossTest > span').click(function(){
+        $("span .icoPhone").removeClass("icoPhone"),
+        $("span .ico").addClass("icoColor");
     });
 
-    $('.icoForward').click(function(){
-        $(this).removeClass("icoForward"),
-        $(this).addClass("icoPlay");
-    });
 
     $( "header h1" ).hover(
       function() {

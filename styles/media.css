@@ -1,0 +1,90 @@
+@media (max-width: 969px) {
+  #layout{
+  	width: 600px;
+  }
+  section#description .icossTest{
+  	float: none;
+  	top: 20px;
+  }
+
+  section#description{
+  	height: 240px;
+  }
+
+  section#howTo .instruction{
+    top: 10px;
+  }
+
+  section#howTo .instruction .ImgInstruction{
+  	margin-top: 10px;
+  	float: none;
+  }
+
+  section#howTo{
+  	width: 100%;
+  	background: #191B1D;
+  	height: 1227px;
+  }
+}
+
+@media (max-width: 485px) {
+  #layout{
+  	width: 85%;
+  }
+
+  section#description .icossTest{
+    width: 100%;
+  	float: none;
+  	top: 20px;
+  }
+
+  section#description .icossTest span{
+    margin: auto;
+    float: none;
+  }
+
+  section#description .icossTest .btn{
+    margin: auto;
+    position: relative;
+    float: none;
+    top: 25px;
+  }
+
+  section#description h2{
+  	font-size: 30px;
+    width: 100%;
+  }
+
+  section#description span.text{
+  	font-size: 17px;
+  }
+
+  header h1{
+  	float: none;
+    margin: auto;
+  }
+
+  .bigform{
+  	top: -370px;
+  }
+
+  section#howTo{
+  	top: 188px;
+  }
+
+  section#description .icossTest .btn.primary:hover{
+    top:30px !important;
+  }
+
+  section#howTo .instruction .ImgInstruction{
+  	width: 100%;
+    height: 29px;
+    padding-top: 13px;
+  }
+
+
+  section#howTo .instruction p.textInstruction{
+  	width: 95%;
+  }
+
+}
